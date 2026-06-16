@@ -345,9 +345,12 @@
       /* faq */
       .faq-q{padding:1rem 0;font-size:.93rem;min-height:54px}
 
-      /* contact */
-      .contact-grid{gap:2rem}
-      .map-wrap iframe{height:180px}
+      /* contact: form felül, térkép+adatok alul mobilon */
+      .contact-grid{gap:2rem;display:flex;flex-direction:column}
+      .contact-grid>form{order:1}
+      .contact-grid>div{order:2}
+      .form-row{grid-template-columns:1fr}
+      .map-wrap iframe{height:200px}
       /* prevent iOS auto-zoom on input focus */
       .form-control{font-size:1rem}
       input.form-control,select.form-control{font-size:1rem}
