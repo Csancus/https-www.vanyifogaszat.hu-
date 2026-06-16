@@ -142,15 +142,13 @@
     .about-grid{display:grid;grid-template-columns:1fr 1fr;gap:4rem;align-items:center}
     .about-img{position:relative}
     .about-img img{width:100%;height:420px;object-fit:cover;border-radius:var(--r);box-shadow:var(--sh)}
-    .about-img-accent{position:absolute;bottom:-1.5rem;right:-1.5rem;width:160px;height:160px;background:var(--g50);border:4px solid var(--g100);border-radius:var(--r);display:flex;flex-direction:column;align-items:center;justify-content:center;box-shadow:var(--sh-sm)}
-    .about-img-accent strong{font-size:2rem;font-weight:900;color:var(--g700);line-height:1}
-    .about-img-accent span{font-size:.72rem;color:var(--muted);text-align:center;margin-top:.2rem;line-height:1.3}
+
     .about-text p{color:var(--mid);margin-bottom:1rem;font-size:1rem;line-height:1.75}
     .about-text strong{color:var(--text)}
     .feat-grid{display:grid;grid-template-columns:1fr 1fr;gap:.6rem .8rem;margin-top:1.5rem}
     .feat{display:flex;align-items:center;gap:.55rem;font-size:.88rem;color:var(--mid)}
     .feat-dot{width:7px;height:7px;border-radius:50%;background:var(--g400);flex-shrink:0}
-    @media(max-width:780px){.about-grid{grid-template-columns:1fr}.about-img-accent{display:none}}
+    @media(max-width:780px){.about-grid{grid-template-columns:1fr}}
 
     /* ── SERVICES ── */
     .services-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.25rem}
@@ -333,8 +331,7 @@
       </div>
       <div class="hero-img-wrap anim anim-d2">
         <div class="hero-img-card">
-          <img src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=800&q=80"
-               onerror="this.src='images/k4.png'"
+          <img src="https://images.pexels.com/photos/3845810/pexels-photo-3845810.jpeg?auto=compress&cs=tinysrgb&w=800&h=500&fit=crop"
                alt="Modern fogászati rendelő">
           <div class="hero-img-badge">
             <div class="hero-img-badge-icon">🦷</div>
@@ -378,13 +375,8 @@
   <div class="container">
     <div class="about-grid">
       <div class="about-img anim">
-        <img src="https://images.unsplash.com/photo-1588776814546-1ffbb4e6f90e?auto=format&fit=crop&w=800&q=80"
-             onerror="this.src='images/k2.png'"
+        <img src="https://images.pexels.com/photos/3762453/pexels-photo-3762453.jpeg?auto=compress&cs=tinysrgb&w=800&h=500&fit=crop"
              alt="Fogászati rendelő belső tere">
-        <div class="about-img-accent">
-          <strong>2024</strong>
-          <span><span class="t" data-hu="megújult eszközpark" data-en="upgraded equipment" data-de="erneuertes Gerät">megújult eszközpark</span></span>
-        </div>
       </div>
       <div class="about-text anim anim-d2">
         <div class="section-label"><span class="t" data-hu="Rólunk" data-en="About us" data-de="Über uns">Rólunk</span></div>
@@ -538,24 +530,20 @@
     </div>
     <div class="gallery-grid">
       <div class="gallery-item anim" onclick="openLb(this.querySelector('img').src)">
-        <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=700&q=80"
-             onerror="this.src='images/k1.png'"
-             alt="Fogászati rendelő">
+        <img src="https://images.pexels.com/photos/6627558/pexels-photo-6627558.jpeg?auto=compress&cs=tinysrgb&w=700&h=525&fit=crop"
+             alt="Modern fogászati rendelő">
       </div>
       <div class="gallery-item anim anim-d1" onclick="openLb(this.querySelector('img').src)">
-        <img src="https://images.unsplash.com/photo-1606811841689-23dfddce3e95?auto=format&fit=crop&w=700&q=80"
-             onerror="this.src='images/k2.png'"
+        <img src="https://images.pexels.com/photos/4269694/pexels-photo-4269694.jpeg?auto=compress&cs=tinysrgb&w=700&h=525&fit=crop"
              alt="Fogászati szék és felszerelés">
       </div>
       <div class="gallery-item anim anim-d2" onclick="openLb(this.querySelector('img').src)">
-        <img src="https://images.unsplash.com/photo-1598256989800-fe5f95da9787?auto=format&fit=crop&w=700&q=80"
-             onerror="this.src='images/k3.png'"
+        <img src="https://images.pexels.com/photos/3779709/pexels-photo-3779709.jpeg?auto=compress&cs=tinysrgb&w=700&h=525&fit=crop"
              alt="Fogorvosi vizsgálat">
       </div>
       <div class="gallery-item anim anim-d3" onclick="openLb(this.querySelector('img').src)">
-        <img src="https://images.unsplash.com/photo-1559757148-5c350d0d3c56?auto=format&fit=crop&w=700&q=80"
-             onerror="this.src='images/k4.png'"
-             alt="Modern fogászati berendezés">
+        <img src="https://images.pexels.com/photos/3845653/pexels-photo-3845653.jpeg?auto=compress&cs=tinysrgb&w=700&h=525&fit=crop"
+             alt="Fogászati kezelés">
       </div>
     </div>
   </div>
@@ -810,7 +798,7 @@
       </div>
     </div>
     <div class="footer-bottom">
-      <span>© 2024 Ványi Fogászat · Minden jog fenntartva</span>
+      <span>© 2026 Ványi Fogászat · Minden jog fenntartva</span>
       <a href="adatvedelem.html"><span class="t" data-hu="Adatkezelési tájékoztató" data-en="Privacy Policy" data-de="Datenschutzerklärung">Adatkezelési tájékoztató</span></a>
     </div>
   </div>
