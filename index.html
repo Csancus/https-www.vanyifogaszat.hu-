@@ -5,1022 +5,935 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ványi Fogászat Szekszárd | Dr. Ványi Gyula fogászata</title>
   <meta name="description" content="Ványi Fogászat Szekszárd – Dr. Ványi Gyula fog- és szájbetegségek szakorvosa, implantológus fogorvos. Fogpótlás, implantátum, fogszabályozás, fogfehérítés. Garay tér 16. ☎ +36 74 416-400">
-  <meta name="keywords" content="fogászat szekszárd, fogorvos szekszárd, implantátum szekszárd, fogpótlás szekszárd, fogszabályozás, fogfehérítés, dr ványi gyula">
+  <meta name="keywords" content="fogászat szekszárd, fogorvos szekszárd, implantátum szekszárd, fogpótlás, fogszabályozás, dr ványi gyula">
   <meta name="robots" content="index, follow">
-  <meta name="author" content="Ványi Fogászat">
   <link rel="canonical" href="https://csancus.github.io/https-www.vanyifogaszat.hu-/">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Ványi Fogászat – Fogászati rendelő Szekszárd">
-  <meta property="og:description" content="Teljes körű fogászati ellátás Szekszárdon. Implantátum, fogpótlás, fogszabályozás, fogfehérítés. Dr. Ványi Gyula.">
+  <meta property="og:title" content="Ványi Fogászat – Szekszárd">
+  <meta property="og:description" content="Teljes körű fogászati ellátás Szekszárdon. Implantátum, fogpótlás, fogszabályozás, fogfehérítés.">
   <meta property="og:image" content="images/k4.png">
-  <meta property="og:url" content="https://csancus.github.io/https-www.vanyifogaszat.hu-/">
-  <meta name="twitter:card" content="summary_large_image">
-  <script type="application/ld+json">
-  {
-    "@context":"https://schema.org",
-    "@type":"Dentist",
-    "name":"Ványi Fogászat",
-    "url":"https://csancus.github.io/https-www.vanyifogaszat.hu-/",
-    "logo":"images/Logo.png",
-    "image":["images/k1.png","images/k2.png","images/k3.png","images/k4.png"],
-    "description":"Teljes körű fogászati ellátás Szekszárdon – Dr. Ványi Gyula fog- és szájbetegségek szakorvosa, implantológus fogorvos.",
-    "telephone":"+36-74-416-400",
-    "email":"drvanyifog@drvanyifog.t-online.hu",
-    "address":{"@type":"PostalAddress","streetAddress":"Garay tér 16.","addressLocality":"Szekszárd","postalCode":"7100","addressCountry":"HU"},
-    "geo":{"@type":"GeoCoordinates","latitude":"46.3481","longitude":"18.7064"},
-    "priceRange":"$$",
-    "medicalSpecialty":"Dentistry",
-    "hasMap":"https://maps.google.com/?q=7100+Szeksz%C3%A1rd,+Garay+t%C3%A9r+16",
-    "sameAs":["https://www.vanyifogaszat.hu"],
-    "employee":[
-      {"@type":"Person","name":"Dr. Ványi Gyula","jobTitle":"fog- és szájbetegségek szakorvosa, implantológus fogorvos"},
-      {"@type":"Person","name":"Dr. Morvai Rudolf","jobTitle":"fogorvos"}
-    ]
-  }
-  </script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Dentist","name":"Ványi Fogászat","telephone":"+36-74-416-400","email":"drvanyifog@drvanyifog.t-online.hu","address":{"@type":"PostalAddress","streetAddress":"Garay tér 16.","addressLocality":"Szekszárd","postalCode":"7100","addressCountry":"HU"},"url":"https://csancus.github.io/https-www.vanyifogaszat.hu-/","image":"images/Logo.png","priceRange":"$$","medicalSpecialty":"Dentistry"}</script>
   <style>
+    /* ── TOKENS ── */
     :root {
-      --navy:   #1a2461;
-      --navy2:  #14193f;
-      --gold:   #c4a247;
-      --gold2:  #a8872e;
-      --cream:  #faf8f2;
-      --white:  #ffffff;
-      --text:   #2d3748;
-      --muted:  #64748b;
-      --border: #e2e8f0;
-      --shadow: 0 2px 20px rgba(26,36,97,.10);
-      --radius: 12px;
-      --radius-sm: 8px;
+      --g900:#0b2116; --g800:#163825; --g700:#1e4d33; --g600:#2a6444;
+      --g500:#357c56; --g400:#4a9a6e; --g300:#72b892; --g200:#aed4bc;
+      --g100:#d4ecdb; --g50:#f2faf5;
+      --gold:#c9974a; --gold2:#a87a34; --gold-l:#f5e6c8;
+      --white:#fff; --off:#fafcfb;
+      --text:#1c2b22; --mid:#3d5447; --muted:#6b8070;
+      --border:#dce8e1; --border2:#c8ddd2;
+      --sh: 0 4px 28px rgba(22,56,37,.11);
+      --sh-sm: 0 2px 12px rgba(22,56,37,.08);
+      --r:16px; --r-sm:10px; --r-pill:999px;
+      --nav-h:68px;
     }
     *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
     html{scroll-behavior:smooth;font-size:16px}
-    body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;color:var(--text);background:var(--white);line-height:1.7}
+    body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;color:var(--text);background:var(--white);line-height:1.7;-webkit-font-smoothing:antialiased}
     img{max-width:100%;height:auto;display:block}
     a{color:inherit;text-decoration:none}
     ul{list-style:none}
+    button{font-family:inherit}
 
-    /* ── UTILITIES ── */
-    .container{max-width:1140px;margin:0 auto;padding:0 1.25rem}
-    .section{padding:5rem 0}
-    .section-alt{background:var(--cream)}
-    .section-title{font-size:clamp(1.6rem,3vw,2.2rem);font-weight:700;color:var(--navy);text-align:center;margin-bottom:.5rem}
-    .section-sub{text-align:center;color:var(--muted);margin-bottom:3rem;font-size:1.05rem}
-    .section-title::after{content:'';display:block;width:56px;height:3px;background:var(--gold);margin:.6rem auto 0}
-    .btn{display:inline-block;padding:.75rem 1.75rem;border-radius:50px;font-weight:600;font-size:.95rem;cursor:pointer;transition:all .2s;border:2px solid transparent;text-align:center}
+    /* ── LAYOUT ── */
+    .container{max-width:1120px;margin:0 auto;padding:0 1.5rem}
+    .section{padding:5.5rem 0}
+    .section-sm{padding:3.5rem 0}
+    .bg-tint{background:var(--g50)}
+    .bg-dark{background:var(--g800)}
+
+    .section-label{display:inline-block;background:var(--g100);color:var(--g600);font-size:.72rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;padding:.3rem .9rem;border-radius:var(--r-pill);margin-bottom:1rem}
+    .section-title{font-size:clamp(1.75rem,3.5vw,2.4rem);font-weight:800;color:var(--g800);line-height:1.2;margin-bottom:.6rem}
+    .section-title em{font-style:italic;color:var(--g500)}
+    .section-sub{color:var(--muted);font-size:1.05rem;max-width:540px}
+    .section-head{text-align:center;margin-bottom:3.5rem}
+    .section-head .section-sub{margin:0 auto}
+    .section-head .section-title::after{content:'';display:block;width:48px;height:3px;background:var(--gold);border-radius:2px;margin:.7rem auto 0}
+
+    .btn{display:inline-flex;align-items:center;gap:.45rem;padding:.78rem 1.8rem;border-radius:var(--r-pill);font-weight:600;font-size:.95rem;cursor:pointer;transition:all .2s;border:2px solid transparent;line-height:1}
     .btn-primary{background:var(--gold);color:var(--white)}
-    .btn-primary:hover{background:var(--gold2)}
-    .btn-outline{border-color:var(--white);color:var(--white)}
-    .btn-outline:hover{background:var(--white);color:var(--navy)}
+    .btn-primary:hover{background:var(--gold2);transform:translateY(-1px);box-shadow:0 6px 20px rgba(201,151,74,.35)}
+    .btn-green{background:var(--g500);color:var(--white)}
+    .btn-green:hover{background:var(--g600);transform:translateY(-1px)}
+    .btn-outline{border-color:rgba(255,255,255,.5);color:var(--white)}
+    .btn-outline:hover{background:rgba(255,255,255,.12);border-color:var(--white)}
+    .btn-ghost{border-color:var(--g300);color:var(--g700)}
+    .btn-ghost:hover{background:var(--g50);border-color:var(--g500)}
+    .arrow{font-size:.8em;transition:transform .2s}
+    .btn:hover .arrow{transform:translateX(3px)}
+
+    /* ── ANIMATE ON SCROLL ── */
+    .anim{opacity:0;transform:translateY(22px);transition:opacity .55s ease,transform .55s ease}
+    .anim.in{opacity:1;transform:none}
+    .anim-d1{transition-delay:.1s} .anim-d2{transition-delay:.2s}
+    .anim-d3{transition-delay:.3s} .anim-d4{transition-delay:.4s}
+    .anim-d5{transition-delay:.5s} .anim-d6{transition-delay:.6s}
 
     /* ── NAV ── */
-    nav{position:sticky;top:0;z-index:100;background:var(--navy);box-shadow:0 2px 12px rgba(0,0,0,.25)}
-    .nav-inner{display:flex;align-items:center;justify-content:space-between;height:64px;gap:1rem}
-    .nav-logo{display:flex;align-items:center;gap:.75rem;flex-shrink:0}
-    .nav-logo img{height:44px;width:auto;border-radius:4px}
-    .nav-logo span{color:var(--white);font-weight:700;font-size:1.1rem;line-height:1.2}
-    .nav-logo small{display:block;font-size:.7rem;font-weight:400;opacity:.75}
-    .nav-links{display:flex;gap:0;align-items:center}
-    .nav-links a{color:rgba(255,255,255,.85);font-size:.85rem;font-weight:500;padding:.4rem .7rem;border-radius:6px;transition:background .15s,color .15s;white-space:nowrap}
-    .nav-links a:hover{color:var(--white);background:rgba(255,255,255,.12)}
-    .nav-right{display:flex;align-items:center;gap:.5rem;flex-shrink:0}
-    .lang-btn{background:none;border:1px solid rgba(255,255,255,.3);color:rgba(255,255,255,.8);font-size:.78rem;font-weight:600;padding:.3rem .55rem;border-radius:5px;cursor:pointer;transition:all .15s;letter-spacing:.03em}
+    nav{position:sticky;top:0;z-index:200;background:var(--g800);height:var(--nav-h)}
+    .nav-inner{height:100%;display:flex;align-items:center;justify-content:space-between;gap:1rem}
+    .nav-logo{display:flex;align-items:center;gap:.7rem;flex-shrink:0}
+    .nav-logo img{height:40px;width:40px;object-fit:contain;border-radius:6px;background:rgba(255,255,255,.1);padding:2px}
+    .nav-logo-text{color:var(--white);font-weight:800;font-size:1.05rem;line-height:1.15}
+    .nav-logo-text small{display:block;font-size:.68rem;font-weight:400;opacity:.65;letter-spacing:.03em}
+    .nav-links{display:flex;align-items:center}
+    .nav-links a{color:rgba(255,255,255,.78);font-size:.83rem;font-weight:500;padding:.4rem .65rem;border-radius:7px;transition:all .15s;white-space:nowrap}
+    .nav-links a:hover{color:var(--white);background:rgba(255,255,255,.1)}
+    .nav-right{display:flex;align-items:center;gap:.4rem;flex-shrink:0}
+    .lang-btn{background:none;border:1.5px solid rgba(255,255,255,.25);color:rgba(255,255,255,.72);font-size:.76rem;font-weight:700;padding:.28rem .55rem;border-radius:6px;cursor:pointer;transition:all .15s;letter-spacing:.04em}
     .lang-btn:hover,.lang-btn.active{background:var(--gold);border-color:var(--gold);color:var(--white)}
-    .hamburger{display:none;flex-direction:column;gap:5px;background:none;border:none;cursor:pointer;padding:.4rem}
-    .hamburger span{display:block;width:24px;height:2px;background:var(--white);border-radius:2px;transition:all .25s}
+    .hamburger{display:none;flex-direction:column;gap:5px;background:none;border:none;cursor:pointer;padding:.5rem}
+    .hamburger span{display:block;width:22px;height:2px;background:var(--white);border-radius:2px;transition:all .25s}
     .hamburger.open span:nth-child(1){transform:translateY(7px) rotate(45deg)}
-    .hamburger.open span:nth-child(2){opacity:0}
+    .hamburger.open span:nth-child(2){opacity:0;transform:scaleX(0)}
     .hamburger.open span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
-    @media(max-width:900px){
-      .nav-links{display:none;position:absolute;top:64px;left:0;right:0;background:var(--navy2);flex-direction:column;padding:1rem;gap:0;align-items:stretch;box-shadow:0 8px 24px rgba(0,0,0,.3)}
+
+    /* mobile nav */
+    @media(max-width:920px){
+      .nav-links{display:none;position:fixed;inset:var(--nav-h) 0 0 0;background:var(--g900);flex-direction:column;align-items:stretch;padding:1.5rem;gap:.25rem;overflow-y:auto}
       .nav-links.open{display:flex}
-      .nav-links a{padding:.75rem 1rem;border-radius:6px}
+      .nav-links a{font-size:1rem;padding:.85rem 1rem;border-radius:var(--r-sm);border-bottom:1px solid rgba(255,255,255,.06)}
       .hamburger{display:flex}
     }
 
     /* ── HERO ── */
-    #hero{background:linear-gradient(135deg,var(--navy2) 0%,var(--navy) 60%,#2a3a8a 100%);min-height:520px;display:flex;align-items:center;padding:5rem 0 4rem;position:relative;overflow:hidden}
-    #hero::before{content:'';position:absolute;inset:0;background:url('images/k4.png') center/cover no-repeat;opacity:.08}
-    .hero-content{position:relative;z-index:1;max-width:680px}
-    .hero-badge{display:inline-block;background:rgba(196,162,71,.2);color:var(--gold);border:1px solid rgba(196,162,71,.4);border-radius:50px;padding:.3rem 1rem;font-size:.8rem;font-weight:600;margin-bottom:1.25rem;letter-spacing:.04em;text-transform:uppercase}
-    .hero-title{font-size:clamp(2rem,5vw,3rem);font-weight:800;color:var(--white);line-height:1.2;margin-bottom:1rem}
-    .hero-title em{color:var(--gold);font-style:normal}
-    .hero-sub{color:rgba(255,255,255,.8);font-size:1.1rem;margin-bottom:2rem;max-width:520px}
-    .hero-meta{display:flex;flex-wrap:wrap;gap:1.25rem;margin-bottom:2rem}
-    .hero-meta-item{display:flex;align-items:center;gap:.5rem;color:rgba(255,255,255,.8);font-size:.9rem}
-    .hero-meta-item svg{flex-shrink:0;opacity:.75}
+    #hero{background:linear-gradient(135deg,var(--g900) 0%,var(--g800) 55%,var(--g700) 100%);padding:5rem 0 4.5rem;overflow:hidden;position:relative}
+    #hero::after{content:'';position:absolute;inset:0;background:radial-gradient(ellipse 70% 80% at 80% 50%,rgba(53,124,86,.18) 0%,transparent 70%);pointer-events:none}
+    .hero-grid{display:grid;grid-template-columns:1fr 1fr;gap:3rem;align-items:center;position:relative;z-index:1}
+    .hero-badge{display:inline-flex;align-items:center;gap:.4rem;background:rgba(196,162,71,.15);color:var(--gold);border:1px solid rgba(196,162,71,.3);border-radius:var(--r-pill);padding:.3rem 1rem;font-size:.75rem;font-weight:700;margin-bottom:1.5rem;letter-spacing:.05em;text-transform:uppercase}
+    .hero-badge::before{content:'●';font-size:.5em;animation:pulse 2s infinite}
+    @keyframes pulse{0%,100%{opacity:1}50%{opacity:.3}}
+    h1.hero-title{font-size:clamp(2.2rem,5vw,3.4rem);font-weight:900;color:var(--white);line-height:1.12;margin-bottom:1.1rem;letter-spacing:-.02em}
+    h1.hero-title em{font-style:italic;color:var(--g300)}
+    .hero-desc{color:rgba(255,255,255,.72);font-size:1.05rem;margin-bottom:2rem;max-width:480px;line-height:1.65}
+    .hero-meta{display:flex;flex-wrap:wrap;gap:1rem;margin-bottom:2.2rem}
+    .hero-meta-item{display:flex;align-items:center;gap:.5rem;color:rgba(255,255,255,.65);font-size:.88rem}
+    .hero-meta-item svg{opacity:.7;flex-shrink:0}
     .hero-actions{display:flex;flex-wrap:wrap;gap:.75rem}
+    .hero-img-wrap{position:relative}
+    .hero-img-card{border-radius:var(--r);overflow:hidden;box-shadow:0 24px 64px rgba(0,0,0,.4);position:relative}
+    .hero-img-card img{width:100%;height:380px;object-fit:cover;display:block}
+    .hero-img-card::after{content:'';position:absolute;inset:0;background:linear-gradient(180deg,transparent 50%,rgba(11,33,22,.6) 100%)}
+    .hero-img-badge{position:absolute;bottom:1.25rem;left:1.25rem;right:1.25rem;z-index:1;background:rgba(255,255,255,.1);backdrop-filter:blur(12px);border:1px solid rgba(255,255,255,.2);border-radius:var(--r-sm);padding:.75rem 1rem;display:flex;align-items:center;gap:.75rem}
+    .hero-img-badge-icon{width:36px;height:36px;background:var(--gold);border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0;font-size:1rem}
+    .hero-img-badge-text{color:var(--white);font-size:.82rem;font-weight:600;line-height:1.3}
+    .hero-img-badge-text small{display:block;opacity:.7;font-weight:400;font-size:.75rem}
+    @media(max-width:840px){
+      .hero-grid{grid-template-columns:1fr}
+      .hero-img-wrap{display:none}
+    }
+
+    /* ── STATS BAR ── */
+    .stats-bar{background:var(--white);border-bottom:1px solid var(--border);padding:0}
+    .stats-inner{display:grid;grid-template-columns:repeat(4,1fr)}
+    .stat-item{padding:1.6rem 1.5rem;text-align:center;border-right:1px solid var(--border);transition:background .2s}
+    .stat-item:last-child{border-right:none}
+    .stat-item:hover{background:var(--g50)}
+    .stat-num{font-size:1.8rem;font-weight:900;color:var(--g600);line-height:1;margin-bottom:.25rem}
+    .stat-label{font-size:.78rem;color:var(--muted);font-weight:500;line-height:1.3}
+    @media(max-width:700px){
+      .stats-inner{grid-template-columns:repeat(2,1fr)}
+      .stat-item:nth-child(2){border-right:none}
+      .stat-item:nth-child(3){border-top:1px solid var(--border)}
+    }
 
     /* ── ABOUT ── */
-    .about-grid{display:grid;grid-template-columns:1fr 1fr;gap:3rem;align-items:center}
-    .about-img-wrap{position:relative;border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow)}
-    .about-img-wrap::after{content:'';position:absolute;inset:0;border:3px solid var(--gold);border-radius:var(--radius);pointer-events:none;opacity:.4}
-    .about-text p{margin-bottom:1rem;color:var(--text);font-size:1.025rem}
-    .about-features{display:grid;grid-template-columns:1fr 1fr;gap:.75rem;margin-top:1.5rem}
-    .feat{display:flex;align-items:flex-start;gap:.6rem;font-size:.9rem;color:var(--text)}
-    .feat-icon{color:var(--gold);font-size:1.1rem;margin-top:.1rem;flex-shrink:0}
-    @media(max-width:768px){.about-grid{grid-template-columns:1fr}.about-features{grid-template-columns:1fr}}
+    .about-grid{display:grid;grid-template-columns:1fr 1fr;gap:4rem;align-items:center}
+    .about-img{position:relative}
+    .about-img img{width:100%;height:420px;object-fit:cover;border-radius:var(--r);box-shadow:var(--sh)}
+    .about-img-accent{position:absolute;bottom:-1.5rem;right:-1.5rem;width:160px;height:160px;background:var(--g50);border:4px solid var(--g100);border-radius:var(--r);display:flex;flex-direction:column;align-items:center;justify-content:center;box-shadow:var(--sh-sm)}
+    .about-img-accent strong{font-size:2rem;font-weight:900;color:var(--g700);line-height:1}
+    .about-img-accent span{font-size:.72rem;color:var(--muted);text-align:center;margin-top:.2rem;line-height:1.3}
+    .about-text p{color:var(--mid);margin-bottom:1rem;font-size:1rem;line-height:1.75}
+    .about-text strong{color:var(--text)}
+    .feat-grid{display:grid;grid-template-columns:1fr 1fr;gap:.6rem .8rem;margin-top:1.5rem}
+    .feat{display:flex;align-items:center;gap:.55rem;font-size:.88rem;color:var(--mid)}
+    .feat-dot{width:7px;height:7px;border-radius:50%;background:var(--g400);flex-shrink:0}
+    @media(max-width:780px){.about-grid{grid-template-columns:1fr}.about-img-accent{display:none}}
 
     /* ── SERVICES ── */
-    .services-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem}
-    .service-card{background:var(--white);border:1px solid var(--border);border-radius:var(--radius);padding:1.75rem 1.5rem;transition:box-shadow .2s,transform .2s;position:relative;overflow:hidden}
-    .service-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:var(--gold)}
-    .service-card:hover{box-shadow:var(--shadow);transform:translateY(-3px)}
-    .service-icon{font-size:2.2rem;margin-bottom:.75rem;line-height:1}
-    .service-title{font-size:1.05rem;font-weight:700;color:var(--navy);margin-bottom:.5rem}
-    .service-text{font-size:.9rem;color:var(--muted);line-height:1.6}
+    .services-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.25rem}
+    .service-card{background:var(--white);border:1.5px solid var(--border);border-radius:var(--r);padding:2rem 1.6rem;transition:all .25s;cursor:default}
+    .service-card:hover{border-color:var(--g300);box-shadow:var(--sh);transform:translateY(-4px)}
+    .service-icon-wrap{width:52px;height:52px;background:var(--g50);border:1.5px solid var(--g100);border-radius:14px;display:flex;align-items:center;justify-content:center;margin-bottom:1.1rem;transition:all .25s}
+    .service-card:hover .service-icon-wrap{background:var(--g100);border-color:var(--g200)}
+    .service-icon-wrap svg{width:26px;height:26px;stroke:var(--g600);fill:none;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+    .service-title{font-size:1rem;font-weight:700;color:var(--g800);margin-bottom:.45rem}
+    .service-text{font-size:.875rem;color:var(--muted);line-height:1.65}
     @media(max-width:900px){.services-grid{grid-template-columns:repeat(2,1fr)}}
-    @media(max-width:560px){.services-grid{grid-template-columns:1fr}}
+    @media(max-width:540px){.services-grid{grid-template-columns:1fr}}
 
     /* ── TEAM ── */
-    .team-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1.5rem}
-    .team-card{background:var(--white);border:1px solid var(--border);border-radius:var(--radius);text-align:center;padding:1.75rem 1rem;box-shadow:var(--shadow)}
-    .team-avatar{width:90px;height:90px;border-radius:50%;object-fit:cover;margin:0 auto 1rem;border:3px solid var(--gold)}
-    .team-avatar-placeholder{width:90px;height:90px;border-radius:50%;background:var(--cream);margin:0 auto 1rem;display:flex;align-items:center;justify-content:center;font-size:2rem;border:3px solid var(--gold)}
-    .team-name{font-weight:700;color:var(--navy);font-size:1rem;margin-bottom:.25rem}
-    .team-role{font-size:.82rem;color:var(--muted);line-height:1.4}
+    .team-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1.25rem}
+    .team-card{background:var(--white);border:1.5px solid var(--border);border-radius:var(--r);padding:2rem 1.25rem;text-align:center;transition:box-shadow .2s,transform .2s}
+    .team-card:hover{box-shadow:var(--sh);transform:translateY(-3px)}
+    .team-avatar{width:80px;height:80px;border-radius:50%;margin:0 auto 1rem;background:var(--g100);border:3px solid var(--g200);display:flex;align-items:center;justify-content:center}
+    .team-avatar svg{width:40px;height:40px;stroke:var(--g600);fill:none;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+    .team-name{font-weight:800;color:var(--g800);font-size:.98rem;margin-bottom:.3rem}
+    .team-role{font-size:.8rem;color:var(--muted);line-height:1.45}
+    .team-tag{display:inline-block;background:var(--g50);color:var(--g600);font-size:.7rem;font-weight:600;padding:.2rem .55rem;border-radius:var(--r-pill);margin-top:.5rem}
     @media(max-width:900px){.team-grid{grid-template-columns:repeat(2,1fr)}}
-    @media(max-width:480px){.team-grid{grid-template-columns:1fr 1fr}}
 
     /* ── GALLERY ── */
-    .gallery-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:1rem}
-    .gallery-grid img{border-radius:var(--radius);width:100%;aspect-ratio:4/3;object-fit:cover;cursor:zoom-in;transition:opacity .2s}
-    .gallery-grid img:hover{opacity:.88}
-    @media(max-width:600px){.gallery-grid{grid-template-columns:1fr}}
+    .gallery-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1rem}
+    .gallery-item{position:relative;border-radius:var(--r-sm);overflow:hidden;aspect-ratio:4/3;cursor:zoom-in}
+    .gallery-item img{width:100%;height:100%;object-fit:cover;transition:transform .4s ease}
+    .gallery-item:hover img{transform:scale(1.06)}
+    .gallery-item::after{content:'';position:absolute;inset:0;background:linear-gradient(180deg,transparent 50%,rgba(11,33,22,.45) 100%);opacity:0;transition:opacity .3s}
+    .gallery-item:hover::after{opacity:1}
+    @media(max-width:700px){.gallery-grid{grid-template-columns:repeat(2,1fr)}}
 
     /* ── PRICES ── */
-    .price-category{margin-bottom:2.5rem}
-    .price-category-title{font-size:1rem;font-weight:700;color:var(--navy);text-transform:uppercase;letter-spacing:.06em;border-bottom:2px solid var(--gold);padding-bottom:.4rem;margin-bottom:1rem}
-    .price-table{width:100%;border-collapse:collapse}
-    .price-table tr{border-bottom:1px solid var(--border)}
-    .price-table tr:last-child{border-bottom:none}
-    .price-table td{padding:.55rem .25rem;font-size:.92rem;vertical-align:top}
-    .price-table td:last-child{text-align:right;white-space:nowrap;color:var(--navy);font-weight:600;font-variant-numeric:tabular-nums}
-    .price-note{background:rgba(196,162,71,.1);border-left:3px solid var(--gold);padding:.9rem 1.1rem;border-radius:0 var(--radius-sm) var(--radius-sm) 0;font-size:.88rem;color:var(--muted);margin-top:2rem}
+    .price-accordion{max-width:820px;margin:0 auto}
+    .pacc-item{border:1.5px solid var(--border);border-radius:var(--r-sm);margin-bottom:.75rem;overflow:hidden}
+    .pacc-head{width:100%;background:var(--white);border:none;padding:1.1rem 1.3rem;display:flex;align-items:center;justify-content:space-between;gap:.75rem;cursor:pointer;text-align:left;transition:background .15s}
+    .pacc-head:hover,.pacc-head[aria-expanded="true"]{background:var(--g50)}
+    .pacc-label{display:flex;align-items:center;gap:.75rem}
+    .pacc-dot{width:10px;height:10px;border-radius:50%;background:var(--g400);flex-shrink:0}
+    .pacc-title{font-size:.97rem;font-weight:700;color:var(--g800)}
+    .pacc-icon{width:22px;height:22px;border:1.5px solid var(--border);border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0;transition:all .25s;font-size:.85rem;color:var(--muted)}
+    .pacc-head[aria-expanded="true"] .pacc-icon{background:var(--g500);border-color:var(--g500);color:var(--white);transform:rotate(45deg)}
+    .pacc-body{max-height:0;overflow:hidden;transition:max-height .35s ease}
+    .pacc-inner{padding:.25rem 1.3rem 1.1rem}
+    .price-row{display:flex;justify-content:space-between;align-items:baseline;gap.5rem;padding:.45rem 0;border-bottom:1px solid var(--border);font-size:.9rem}
+    .price-row:last-child{border-bottom:none}
+    .price-row-name{color:var(--mid);flex:1;padding-right:1rem}
+    .price-row-val{color:var(--g700);font-weight:700;font-variant-numeric:tabular-nums;white-space:nowrap;font-size:.88rem}
+    .price-note{background:var(--g50);border:1px solid var(--g100);border-radius:var(--r-sm);padding:.85rem 1rem;font-size:.85rem;color:var(--muted);margin-top:1.5rem;display:flex;gap:.6rem}
+    .price-note-icon{font-size:1rem;flex-shrink:0;margin-top:.05rem}
 
     /* ── FAQ ── */
-    .faq-list{max-width:820px;margin:0 auto}
-    .faq-item{border:1px solid var(--border);border-radius:var(--radius-sm);margin-bottom:.75rem;overflow:hidden}
-    .faq-q{width:100%;text-align:left;background:var(--white);border:none;padding:1.1rem 1.25rem;font-size:1rem;font-weight:600;color:var(--navy);cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:1rem;transition:background .15s}
-    .faq-q:hover{background:var(--cream)}
-    .faq-q[aria-expanded="true"]{background:var(--cream)}
-    .faq-icon{font-size:1.2rem;color:var(--gold);transition:transform .25s;flex-shrink:0;line-height:1}
-    .faq-q[aria-expanded="true"] .faq-icon{transform:rotate(45deg)}
-    .faq-a{max-height:0;overflow:hidden;transition:max-height .3s ease;background:var(--cream)}
-    .faq-a p{padding:1rem 1.25rem;font-size:.95rem;color:var(--muted);line-height:1.7}
+    .faq-list{max-width:760px;margin:0 auto}
+    .faq-item{border-bottom:1.5px solid var(--border)}
+    .faq-item:first-child{border-top:1.5px solid var(--border)}
+    .faq-q{width:100%;background:none;border:none;padding:1.2rem 0;display:flex;justify-content:space-between;align-items:center;gap:1rem;cursor:pointer;text-align:left;font-size:.98rem;font-weight:600;color:var(--g800);transition:color .15s}
+    .faq-q:hover{color:var(--g500)}
+    .faq-chevron{width:20px;height:20px;flex-shrink:0;transition:transform .28s;color:var(--g400)}
+    .faq-q[aria-expanded="true"] .faq-chevron{transform:rotate(180deg);color:var(--g600)}
+    .faq-a{max-height:0;overflow:hidden;transition:max-height .32s ease}
+    .faq-a p{padding-bottom:1.1rem;color:var(--muted);font-size:.93rem;line-height:1.72}
 
     /* ── CONTACT ── */
-    .contact-grid{display:grid;grid-template-columns:1fr 1.3fr;gap:3rem;align-items:start}
-    .contact-info h3{font-size:1.3rem;color:var(--navy);font-weight:700;margin-bottom:1.25rem}
-    .contact-item{display:flex;align-items:flex-start;gap:.85rem;margin-bottom:1.25rem}
-    .contact-item-icon{width:40px;height:40px;background:rgba(26,36,97,.08);border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0;font-size:1.1rem}
-    .contact-item-text strong{display:block;font-size:.82rem;color:var(--muted);font-weight:500;text-transform:uppercase;letter-spacing:.05em;margin-bottom:.15rem}
-    .contact-item-text span,.contact-item-text a{font-size:.97rem;color:var(--text)}
-    .contact-item-text a:hover{color:var(--navy)}
-    .map-wrap{margin-top:1.5rem;border-radius:var(--radius);overflow:hidden;border:1px solid var(--border)}
-    .map-wrap iframe{width:100%;height:220px;border:none;display:block}
-    .form-group{margin-bottom:1.1rem}
-    .form-group label{display:block;font-size:.85rem;font-weight:600;color:var(--navy);margin-bottom:.35rem}
-    .form-group input,.form-group textarea,.form-group select{width:100%;padding:.7rem .9rem;border:1.5px solid var(--border);border-radius:var(--radius-sm);font-size:.95rem;font-family:inherit;color:var(--text);background:var(--white);transition:border-color .15s}
-    .form-group input:focus,.form-group textarea:focus{outline:none;border-color:var(--navy)}
-    .form-group textarea{resize:vertical;min-height:110px}
+    .contact-grid{display:grid;grid-template-columns:1fr 1.35fr;gap:3.5rem;align-items:start}
+    .cinfo-title{font-size:1.25rem;font-weight:800;color:var(--g800);margin-bottom:1.5rem}
+    .cinfo-item{display:flex;gap:.9rem;margin-bottom:1.35rem}
+    .cinfo-icon{width:42px;height:42px;background:var(--g50);border:1.5px solid var(--g100);border-radius:var(--r-sm);display:flex;align-items:center;justify-content:center;flex-shrink:0}
+    .cinfo-icon svg{width:18px;height:18px;stroke:var(--g600);fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+    .cinfo-label{font-size:.74rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;margin-bottom:.2rem}
+    .cinfo-val{font-size:.96rem;color:var(--text)}
+    .cinfo-val a{color:var(--g600);transition:color .15s}
+    .cinfo-val a:hover{color:var(--g800)}
+    .map-wrap{margin-top:1.5rem;border-radius:var(--r-sm);overflow:hidden;border:1.5px solid var(--border)}
+    .map-wrap iframe{width:100%;height:210px;border:none;display:block}
+    .form-group{margin-bottom:1rem}
+    .form-label{display:block;font-size:.82rem;font-weight:600;color:var(--g800);margin-bottom:.35rem}
+    .form-control{width:100%;padding:.72rem 1rem;border:1.5px solid var(--border);border-radius:var(--r-sm);font-size:.95rem;font-family:inherit;color:var(--text);background:var(--white);transition:border-color .15s,box-shadow .15s;outline:none}
+    .form-control:focus{border-color:var(--g400);box-shadow:0 0 0 3px rgba(74,154,110,.12)}
+    .form-control::placeholder{color:var(--muted);opacity:.7}
+    textarea.form-control{resize:vertical;min-height:108px}
     .form-row{display:grid;grid-template-columns:1fr 1fr;gap:1rem}
-    .form-submit{width:100%;padding:.85rem;background:var(--navy);color:var(--white);border:none;border-radius:50px;font-size:1rem;font-weight:700;cursor:pointer;transition:background .2s}
-    .form-submit:hover{background:var(--navy2)}
-    .form-success{display:none;background:#d1fae5;border:1px solid #6ee7b7;border-radius:var(--radius-sm);padding:1rem;color:#065f46;font-size:.95rem;text-align:center;margin-top:.75rem}
-    @media(max-width:768px){.contact-grid{grid-template-columns:1fr}.form-row{grid-template-columns:1fr}}
+    .gdpr-row{display:flex;align-items:flex-start;gap:.6rem;margin-bottom:1.1rem}
+    .gdpr-row input[type=checkbox]{width:16px;height:16px;margin-top:.25rem;flex-shrink:0;accent-color:var(--g600);cursor:pointer}
+    .gdpr-row label{font-size:.83rem;color:var(--muted);cursor:pointer;line-height:1.5}
+    .gdpr-row a{color:var(--g600);text-decoration:underline}
+    .form-submit{width:100%;padding:.88rem;background:var(--g600);color:var(--white);border:none;border-radius:var(--r-pill);font-size:1rem;font-weight:700;cursor:pointer;transition:all .2s;display:flex;align-items:center;justify-content:center;gap:.5rem}
+    .form-submit:hover{background:var(--g700);transform:translateY(-1px);box-shadow:0 6px 20px rgba(42,100,68,.28)}
+    .form-success{display:none;background:#d1fae5;border:1px solid #6ee7b7;border-radius:var(--r-sm);padding:.9rem 1.1rem;color:#065f46;font-size:.9rem;text-align:center;margin-top:.75rem}
+    @media(max-width:780px){.contact-grid{grid-template-columns:1fr}.form-row{grid-template-columns:1fr}}
 
     /* ── FOOTER ── */
-    footer{background:var(--navy2);color:rgba(255,255,255,.7);padding:2.5rem 0 1.5rem}
-    .footer-inner{display:grid;grid-template-columns:1.2fr 1fr 1fr;gap:2rem;margin-bottom:2rem}
-    .footer-brand{color:var(--white);font-size:1.1rem;font-weight:700;margin-bottom:.5rem}
-    .footer-brand small{display:block;font-size:.82rem;font-weight:400;color:rgba(255,255,255,.6);margin-top:.2rem}
-    .footer-col h4{color:rgba(255,255,255,.9);font-size:.88rem;font-weight:700;text-transform:uppercase;letter-spacing:.07em;margin-bottom:.75rem}
-    .footer-col ul li{margin-bottom:.4rem}
-    .footer-col ul li a{font-size:.88rem;transition:color .15s}
-    .footer-col ul li a:hover{color:var(--gold)}
-    .footer-col p{font-size:.88rem;line-height:1.7}
-    .footer-bottom{border-top:1px solid rgba(255,255,255,.1);padding-top:1.25rem;text-align:center;font-size:.8rem}
-    @media(max-width:768px){.footer-inner{grid-template-columns:1fr}}
+    footer{background:var(--g900);color:rgba(255,255,255,.6);padding:3rem 0 1.5rem}
+    .footer-grid{display:grid;grid-template-columns:1.3fr 1fr 1fr;gap:2.5rem;padding-bottom:2.5rem;border-bottom:1px solid rgba(255,255,255,.08)}
+    .footer-brand{color:var(--white);font-weight:800;font-size:1.1rem;margin-bottom:.35rem}
+    .footer-brand small{display:block;font-size:.78rem;font-weight:400;color:rgba(255,255,255,.45);margin-top:.1rem}
+    .footer-desc{font-size:.85rem;line-height:1.7;margin-top:.6rem}
+    .footer-col h4{color:rgba(255,255,255,.85);font-size:.8rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;margin-bottom:.85rem}
+    .footer-col li{margin-bottom:.35rem}
+    .footer-col a{font-size:.85rem;transition:color .15s}
+    .footer-col a:hover{color:var(--g300)}
+    .footer-col p{font-size:.85rem;line-height:1.7;margin-bottom:.35rem}
+    .footer-bottom{padding-top:1.5rem;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:.5rem;font-size:.78rem}
+    .footer-bottom a{color:rgba(255,255,255,.45);transition:color .15s}
+    .footer-bottom a:hover{color:var(--g300)}
+    @media(max-width:700px){.footer-grid{grid-template-columns:1fr}.footer-bottom{flex-direction:column;text-align:center}}
 
     /* ── LIGHTBOX ── */
-    #lightbox{display:none;position:fixed;inset:0;background:rgba(0,0,0,.92);z-index:999;align-items:center;justify-content:center}
-    #lightbox.open{display:flex}
-    #lightbox img{max-width:92vw;max-height:88vh;border-radius:var(--radius);object-fit:contain}
-    #lightbox-close{position:absolute;top:1rem;right:1.25rem;background:none;border:none;color:var(--white);font-size:2rem;cursor:pointer;line-height:1}
+    #lb{display:none;position:fixed;inset:0;background:rgba(0,0,0,.93);z-index:999;align-items:center;justify-content:center}
+    #lb.open{display:flex}
+    #lb img{max-width:92vw;max-height:88vh;border-radius:var(--r);object-fit:contain;box-shadow:0 0 60px rgba(0,0,0,.6)}
+    #lb-close{position:absolute;top:.9rem;right:1.1rem;background:rgba(255,255,255,.12);border:none;color:#fff;font-size:1.5rem;cursor:pointer;width:40px;height:40px;border-radius:50%;display:flex;align-items:center;justify-content:center;transition:background .15s}
+    #lb-close:hover{background:rgba(255,255,255,.22)}
 
     /* ── SCROLL TOP ── */
-    #scrolltop{position:fixed;bottom:1.5rem;right:1.5rem;width:44px;height:44px;background:var(--gold);color:var(--white);border:none;border-radius:50%;font-size:1.2rem;cursor:pointer;box-shadow:0 2px 12px rgba(0,0,0,.25);display:none;align-items:center;justify-content:center;z-index:50;transition:background .2s}
-    #scrolltop.visible{display:flex}
-    #scrolltop:hover{background:var(--gold2)}
+    #st{position:fixed;bottom:1.5rem;right:1.5rem;width:44px;height:44px;background:var(--g600);color:#fff;border:none;border-radius:50%;font-size:1.1rem;cursor:pointer;box-shadow:0 4px 16px rgba(0,0,0,.25);display:none;align-items:center;justify-content:center;z-index:50;transition:background .2s,transform .2s}
+    #st.on{display:flex}
+    #st:hover{background:var(--g700);transform:scale(1.08)}
   </style>
 </head>
 <body data-lang="hu">
 
-<!-- ═══ NAVIGATION ═══ -->
-<nav role="navigation" aria-label="Főmenü">
+<!-- ══ NAV ══ -->
+<nav role="navigation">
   <div class="container nav-inner">
-    <a href="#hero" class="nav-logo" aria-label="Ványi Fogászat – kezdőlap">
-      <img src="images/Logo.png" alt="Ványi Fogászat logó" width="44" height="44">
-      <span>Ványi Fogászat<small>Szekszárd</small></span>
+    <a href="#hero" class="nav-logo">
+      <img src="images/Logo.png" alt="Ványi Fogászat logó">
+      <div class="nav-logo-text">Ványi Fogászat<small>Szekszárd</small></div>
     </a>
-    <ul class="nav-links" id="navLinks" role="list">
-      <li><a href="#hero"><span class="i18n" data-hu="Főoldal" data-en="Home" data-de="Startseite">Főoldal</span></a></li>
-      <li><a href="#rolunk"><span class="i18n" data-hu="Bemutatkozás" data-en="About" data-de="Über uns">Bemutatkozás</span></a></li>
-      <li><a href="#kezelesek"><span class="i18n" data-hu="Kezelések" data-en="Treatments" data-de="Behandlungen">Kezelések</span></a></li>
-      <li><a href="#csapat"><span class="i18n" data-hu="Csapatunk" data-en="Our Team" data-de="Unser Team">Csapatunk</span></a></li>
-      <li><a href="#arak"><span class="i18n" data-hu="Áraink" data-en="Prices" data-de="Preise">Áraink</span></a></li>
-      <li><a href="#gyik"><span class="i18n" data-hu="GYIK" data-en="FAQ" data-de="FAQ">GYIK</span></a></li>
-      <li><a href="#kapcsolat"><span class="i18n" data-hu="Kapcsolat" data-en="Contact" data-de="Kontakt">Kapcsolat</span></a></li>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#hero"><span class="t" data-hu="Főoldal" data-en="Home" data-de="Startseite">Főoldal</span></a></li>
+      <li><a href="#rolunk"><span class="t" data-hu="Bemutatkozás" data-en="About" data-de="Über uns">Bemutatkozás</span></a></li>
+      <li><a href="#kezelesek"><span class="t" data-hu="Kezelések" data-en="Treatments" data-de="Behandlungen">Kezelések</span></a></li>
+      <li><a href="#csapat"><span class="t" data-hu="Csapatunk" data-en="Team" data-de="Team">Csapatunk</span></a></li>
+      <li><a href="#arak"><span class="t" data-hu="Árak" data-en="Prices" data-de="Preise">Árak</span></a></li>
+      <li><a href="#gyik"><span class="t" data-hu="GYIK" data-en="FAQ" data-de="FAQ">GYIK</span></a></li>
+      <li><a href="#kapcsolat"><span class="t" data-hu="Kapcsolat" data-en="Contact" data-de="Kontakt">Kapcsolat</span></a></li>
     </ul>
     <div class="nav-right">
-      <button class="lang-btn active" onclick="setLang('hu')" aria-label="Magyar nyelv">HU</button>
-      <button class="lang-btn" onclick="setLang('en')" aria-label="English">EN</button>
-      <button class="lang-btn" onclick="setLang('de')" aria-label="Deutsch">DE</button>
-      <button class="hamburger" id="hamburger" aria-label="Menü" aria-expanded="false" aria-controls="navLinks">
+      <button class="lang-btn active" onclick="setLang('hu')">HU</button>
+      <button class="lang-btn" onclick="setLang('en')">EN</button>
+      <button class="lang-btn" onclick="setLang('de')">DE</button>
+      <button class="hamburger" id="hbg" aria-label="Menü" aria-expanded="false">
         <span></span><span></span><span></span>
       </button>
     </div>
   </div>
 </nav>
 
-<!-- ═══ HERO ═══ -->
+<!-- ══ HERO ══ -->
 <section id="hero">
   <div class="container">
-    <div class="hero-content">
-      <div class="hero-badge">
-        <span class="i18n" data-hu="Szekszárd · Garay tér 16." data-en="Szekszárd · Garay tér 16." data-de="Szekszárd · Garay tér 16.">Szekszárd · Garay tér 16.</span>
+    <div class="hero-grid">
+      <div class="anim">
+        <div class="hero-badge">Szekszárd · Garay tér 16.</div>
+        <h1 class="hero-title">
+          <span data-lang="hu">Ahol a mosoly<br>a legjobb<br><em>kezekben van</em></span>
+          <span data-lang="en" hidden>Your smile<br>in the finest<br><em>hands</em></span>
+          <span data-lang="de" hidden>Ihr Lächeln<br>in den besten<br><em>Händen</em></span>
+        </h1>
+        <p class="hero-desc">
+          <span data-lang="hu">Teljes körű fogászati ellátás felnőtteknek és gyermekeknek — a legmodernebb eszközökkel, személyes odafigyeléssel.</span>
+          <span data-lang="en" hidden>Comprehensive dental care for adults and children — with state-of-the-art equipment and personal attention.</span>
+          <span data-lang="de" hidden>Umfassende Zahnmedizin für Erwachsene und Kinder — mit modernsten Geräten und persönlicher Betreuung.</span>
+        </p>
+        <div class="hero-meta">
+          <div class="hero-meta-item">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013 10.72 19.79 19.79 0 01.21 2a2 2 0 012-2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 7.19a16 16 0 006.29 6.29l1.45-1.45a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14.2z"/></svg>
+            +36 74 416-400
+          </div>
+          <div class="hero-meta-item">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            Obsitos udvarház, Szekszárd
+          </div>
+        </div>
+        <div class="hero-actions">
+          <a href="#kapcsolat" class="btn btn-primary"><span class="t" data-hu="Időpontot foglalok" data-en="Book appointment" data-de="Termin buchen">Időpontot foglalok</span> <span class="arrow">→</span></a>
+          <a href="#kezelesek" class="btn btn-outline"><span class="t" data-hu="Kezelések" data-en="Treatments" data-de="Behandlungen">Kezelések</span></a>
+        </div>
       </div>
-      <h1 class="hero-title">
-        <span data-lang="hu">Mosolya a legjobb<br><em>kezekben van</em></span>
-        <span data-lang="en" hidden>Your smile in the<br><em>best hands</em></span>
-        <span data-lang="de" hidden>Ihr Lächeln in den<br><em>besten Händen</em></span>
-      </h1>
-      <p class="hero-sub">
-        <span data-lang="hu">Teljes körű fogászati ellátás felnőtteknek és gyermekeknek — a legmodernebb eszközökkel, személyes törődéssel.</span>
-        <span data-lang="en" hidden>Comprehensive dental care for adults and children — with state-of-the-art equipment and personal attention.</span>
-        <span data-lang="de" hidden>Umfassende Zahnmedizin für Erwachsene und Kinder — mit modernsten Geräten und persönlicher Betreuung.</span>
-      </p>
-      <div class="hero-meta">
-        <div class="hero-meta-item">
-          <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013 10.72 19.79 19.79 0 01.21 2a2 2 0 012-2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 7.19a16 16 0 006.29 6.29l1.45-1.45a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14.2z"/></svg>
-          +36 74 416-400
+      <div class="hero-img-wrap anim anim-d2">
+        <div class="hero-img-card">
+          <img src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=800&q=80"
+               onerror="this.src='images/k4.png'"
+               alt="Modern fogászati rendelő">
+          <div class="hero-img-badge">
+            <div class="hero-img-badge-icon">🦷</div>
+            <div class="hero-img-badge-text">
+              Dr. Ványi Gyula
+              <small><span class="t" data-hu="Implantológus fogorvos" data-en="Implant Surgeon" data-de="Implantologischer Zahnarzt">Implantológus fogorvos</span></small>
+            </div>
+          </div>
         </div>
-        <div class="hero-meta-item">
-          <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
-          drvanyifog@drvanyifog.t-online.hu
-        </div>
-        <div class="hero-meta-item">
-          <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
-          Obsitos udvarház, Garay tér 16., 7100 Szekszárd
-        </div>
-      </div>
-      <div class="hero-actions">
-        <a href="#kapcsolat" class="btn btn-primary">
-          <span class="i18n" data-hu="Időpontot foglalok" data-en="Book Appointment" data-de="Termin buchen">Időpontot foglalok</span>
-        </a>
-        <a href="#kezelesek" class="btn btn-outline">
-          <span class="i18n" data-hu="Kezelések" data-en="Our Treatments" data-de="Behandlungen">Kezelések</span>
-        </a>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ═══ ABOUT ═══ -->
-<section id="rolunk" class="section section-alt">
+<!-- ══ STATS ══ -->
+<div class="stats-bar">
   <div class="container">
-    <h2 class="section-title">
-      <span class="i18n" data-hu="Bemutatkozás" data-en="About Us" data-de="Über uns">Bemutatkozás</span>
-    </h2>
-    <p class="section-sub">
-      <span data-lang="hu">Ványi Fogászat – ahol a páciensek az első helyen állnak</span>
-      <span data-lang="en" hidden>Ványi Fogászat – where patients come first</span>
-      <span data-lang="de" hidden>Ványi Fogászat – wo Patienten an erster Stelle stehen</span>
-    </p>
-    <div class="about-grid">
-      <div class="about-img-wrap">
-        <img src="images/k2.png" alt="Obsitos udvarház aulája – Ványi Fogászat bejárata" loading="lazy">
+    <div class="stats-inner">
+      <div class="stat-item anim">
+        <div class="stat-num">20+</div>
+        <div class="stat-label"><span class="t" data-hu="év tapasztalat" data-en="years experience" data-de="Jahre Erfahrung">év tapasztalat</span></div>
       </div>
-      <div class="about-text">
+      <div class="stat-item anim anim-d1">
+        <div class="stat-num">3D</div>
+        <div class="stat-label"><span class="t" data-hu="CT röntgen" data-en="CT X-ray" data-de="CT-Röntgen">CT röntgen</span></div>
+      </div>
+      <div class="stat-item anim anim-d2">
+        <div class="stat-num">4</div>
+        <div class="stat-label"><span class="t" data-hu="szakember" data-en="specialists" data-de="Fachleute">szakember</span></div>
+      </div>
+      <div class="stat-item anim anim-d3">
+        <div class="stat-num">100%</div>
+        <div class="stat-label"><span class="t" data-hu="akadálymentes" data-en="accessible" data-de="barrierefrei">akadálymentes</span></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ══ ABOUT ══ -->
+<section id="rolunk" class="section">
+  <div class="container">
+    <div class="about-grid">
+      <div class="about-img anim">
+        <img src="https://images.unsplash.com/photo-1588776814546-1ffbb4e6f90e?auto=format&fit=crop&w=800&q=80"
+             onerror="this.src='images/k2.png'"
+             alt="Fogászati rendelő belső tere">
+        <div class="about-img-accent">
+          <strong>2024</strong>
+          <span><span class="t" data-hu="megújult eszközpark" data-en="upgraded equipment" data-de="erneuertes Gerät">megújult eszközpark</span></span>
+        </div>
+      </div>
+      <div class="about-text anim anim-d2">
+        <div class="section-label"><span class="t" data-hu="Rólunk" data-en="About us" data-de="Über uns">Rólunk</span></div>
+        <h2 class="section-title"><span class="t" data-hu="Bemutatkozás" data-en="About the Practice" data-de="Über die Praxis">Bemutatkozás</span></h2>
         <div data-lang="hu">
           <p>Szekszárd sétáló utcájában várjuk pácienseinket, az <strong>Obsitos ház</strong> földszinti aulájából nyíló, akadálymentesített, többszékes, kiválóan felszerelt rendelőnkben.</p>
-          <p>A magas szintű betegellátást a legkorszerűbb elvárásoknak megfelelő, folyamatosan megújuló műszer- és eszközpark segíti, többek között kényelmes fogászati székek, digitalizált röntgen berendezések, <strong>3D röntgen (CT)</strong>, éberszedáló berendezés, gépi gyökérkezelő szett, fogfehérítő készülék, szájüregi kamera stb.</p>
-          <p>Teljes körű fogászati szolgáltatást nyújtunk, mely felöleli a felnőtt- és gyermekfogászati ellátást a röntgenfelvételek készítésétől a fogszabályozáson és fogpótláson át a fogbeültetésig. A konzultációk során nagy gondot fordítunk a teljeskörű <strong>betegtájékoztatásra</strong>, a szakmai szempontok és pácienseink szubjektív, egyedi elvárásainak összehangolására.</p>
+          <p>A magas szintű betegellátást a legkorszerűbb, folyamatosan megújuló eszközpark segíti: kényelmes fogászati székek, digitalizált röntgen, <strong>3D CT</strong>, éberszedáló berendezés, gépi gyökérkezelő szett, fogfehérítő, szájüregi kamera.</p>
+          <p>Teljes körű fogászati ellátást nyújtunk — a röntgenfelvételektől a fogszabályozáson és fogpótláson át a fogbeültetésig. <strong>Pácienseink egyedi elvárásaira</strong> minden esetben személyre szabott megoldást kínálunk.</p>
         </div>
         <div data-lang="en" hidden>
-          <p>We welcome our patients in Szekszárd's pedestrian street, in our <strong>barrier-free, multi-chair</strong> practice on the ground floor of the Obsitos building.</p>
-          <p>Our high-quality patient care is supported by state-of-the-art, continuously updated equipment, including comfortable dental chairs, digitized X-ray systems, <strong>3D X-ray (CT)</strong>, sedation apparatus, motorized root canal equipment, tooth whitening device, and an intraoral camera.</p>
-          <p>We provide comprehensive dental services covering adult and pediatric dentistry — from X-ray imaging through orthodontics and prosthetics to dental implants. During consultations, we pay great attention to <strong>thorough patient education</strong> and aligning professional standards with each patient's individual expectations.</p>
+          <p>We welcome patients in Szekszárd's pedestrian zone, in our <strong>barrier-free, multi-chair</strong> practice on the ground floor of the Obsitos building.</p>
+          <p>High-quality care is supported by continuously updated equipment: dental chairs, digital X-ray, <strong>3D CT</strong>, sedation apparatus, motorized root canal kit, whitening device, and intraoral camera.</p>
+          <p>We offer comprehensive dental services — from X-rays and orthodontics through prosthetics to implantology. <strong>Individual patient expectations</strong> are always met with tailored solutions.</p>
         </div>
         <div data-lang="de" hidden>
-          <p>Wir empfangen unsere Patienten in der Fußgängerzone von Szekszárd, in unserer <strong>barrierefreien, komfortablen Praxis</strong> im Erdgeschoss des Obsitos-Hauses.</p>
-          <p>Unsere hochwertige Patientenversorgung wird durch modernste, ständig erneuerte Geräte unterstützt: bequeme Zahnarztstühle, digitalisierte Röntgengeräte, <strong>3D-Röntgen (CT)</strong>, Sedierungsgeräte, maschinelle Wurzelkanalaufbereitung, Zahnaufhellungsgerät und eine Intraoralcamera.</p>
-          <p>Wir bieten umfassende Zahnarztleistungen an — von Röntgenaufnahmen über Kieferorthopädie und Zahnprothetik bis hin zu Implantaten. Bei jeder Konsultation legen wir großen Wert auf eine <strong>umfassende Patientenaufklärung</strong> und die Harmonisierung fachlicher und individueller Erwartungen.</p>
+          <p>Wir empfangen Patienten in der Fußgängerzone von Szekszárd, in unserer <strong>barrierefreien, komfortablen Praxis</strong> im Erdgeschoss des Obsitos-Hauses.</p>
+          <p>Modernste Geräte unterstützen unsere Arbeit: Zahnarztstühle, digitales Röntgen, <strong>3D-CT</strong>, Sedierungsgerät, Wurzelkanalaufbereitung, Aufhellungsgerät und Intraoralkamera.</p>
+          <p>Wir bieten umfassende Zahnarztleistungen — von Röntgenaufnahmen über Kieferorthopädie bis zu Implantaten. <strong>Individuelle Patientenwünsche</strong> werden stets maßgeschneidert berücksichtigt.</p>
         </div>
-        <div class="about-features">
-          <div class="feat"><span class="feat-icon">✓</span>
-            <span><span class="i18n" data-hu="Akadálymentesített rendelő" data-en="Barrier-free access" data-de="Barrierefreier Zugang">Akadálymentesített rendelő</span></span>
-          </div>
-          <div class="feat"><span class="feat-icon">✓</span>
-            <span><span class="i18n" data-hu="3D röntgen (CT)" data-en="3D X-ray (CT)" data-de="3D-Röntgen (CT)">3D röntgen (CT)</span></span>
-          </div>
-          <div class="feat"><span class="feat-icon">✓</span>
-            <span><span class="i18n" data-hu="Felnőtt- és gyermekfogászat" data-en="Adult & child dentistry" data-de="Erwachsenen- & Kinderzahnheilkunde">Felnőtt- és gyermekfogászat</span></span>
-          </div>
-          <div class="feat"><span class="feat-icon">✓</span>
-            <span><span class="i18n" data-hu="Éberszedáló kezelés" data-en="Conscious sedation" data-de="Dämmerschlaf-Behandlung">Éberszedáló kezelés</span></span>
-          </div>
-          <div class="feat"><span class="feat-icon">✓</span>
-            <span><span class="i18n" data-hu="Digitalizált röntgen" data-en="Digital X-ray" data-de="Digitales Röntgen">Digitalizált röntgen</span></span>
-          </div>
-          <div class="feat"><span class="feat-icon">✓</span>
-            <span><span class="i18n" data-hu="Szájüregi kamera" data-en="Intraoral camera" data-de="Intraoralkamera">Szájüregi kamera</span></span>
-          </div>
+        <div class="feat-grid">
+          <div class="feat"><div class="feat-dot"></div><span class="t" data-hu="Akadálymentesített bejárat" data-en="Barrier-free access" data-de="Barrierefreier Zugang">Akadálymentesített bejárat</span></div>
+          <div class="feat"><div class="feat-dot"></div><span class="t" data-hu="3D röntgen (CT)" data-en="3D X-ray (CT)" data-de="3D-Röntgen (CT)">3D röntgen (CT)</span></div>
+          <div class="feat"><div class="feat-dot"></div><span class="t" data-hu="Gyermekfogászat" data-en="Paediatric dentistry" data-de="Kinderzahnheilkunde">Gyermekfogászat</span></div>
+          <div class="feat"><div class="feat-dot"></div><span class="t" data-hu="Éberszedáló kezelés" data-en="Conscious sedation" data-de="Dämmerschlaf">Éberszedáló kezelés</span></div>
+          <div class="feat"><div class="feat-dot"></div><span class="t" data-hu="Digitalizált röntgen" data-en="Digital X-ray" data-de="Digitales Röntgen">Digitalizált röntgen</span></div>
+          <div class="feat"><div class="feat-dot"></div><span class="t" data-hu="Szájüregi kamera" data-en="Intraoral camera" data-de="Intraoralkamera">Szájüregi kamera</span></div>
         </div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ═══ TREATMENTS ═══ -->
-<section id="kezelesek" class="section">
+<!-- ══ SERVICES ══ -->
+<section id="kezelesek" class="section bg-tint">
   <div class="container">
-    <h2 class="section-title">
-      <span class="i18n" data-hu="Kezelések" data-en="Treatments" data-de="Behandlungen">Kezelések</span>
-    </h2>
-    <p class="section-sub">
-      <span data-lang="hu">Teljes körű fogászati szolgáltatások egy helyen</span>
-      <span data-lang="en" hidden>Comprehensive dental services under one roof</span>
-      <span data-lang="de" hidden>Umfassende Zahnmedizin unter einem Dach</span>
-    </p>
+    <div class="section-head anim">
+      <div class="section-label"><span class="t" data-hu="Amit kínálunk" data-en="What we offer" data-de="Unser Angebot">Amit kínálunk</span></div>
+      <h2 class="section-title"><span class="t" data-hu="Kezelések" data-en="Treatments" data-de="Behandlungen">Kezelések</span></h2>
+      <p class="section-sub"><span data-lang="hu">Teljes körű fogászati szolgáltatások egy helyen</span><span data-lang="en" hidden>Comprehensive dental services under one roof</span><span data-lang="de" hidden>Umfassende Zahnmedizin unter einem Dach</span></p>
+    </div>
     <div class="services-grid">
 
-      <article class="service-card">
-        <div class="service-icon">🦷</div>
-        <h3 class="service-title">
-          <span class="i18n" data-hu="Ép fogazat &amp; megelőzés" data-en="Healthy teeth &amp; prevention" data-de="Gesunde Zähne &amp; Prävention">Ép fogazat &amp; megelőzés</span>
-        </h3>
-        <p class="service-text">
-          <span data-lang="hu">Professzionális fogtisztítás, fogpolírozás és fogfehérítés 60 perc alatt. Szükség esetén esztétikai korrekciót javaslunk.</span>
-          <span data-lang="en" hidden>Professional teeth cleaning, polishing and whitening within 60 minutes. Cosmetic correction recommended when needed.</span>
-          <span data-lang="de" hidden>Professionelle Zahnreinigung, Polieren und Aufhellung innerhalb von 60 Minuten. Bei Bedarf ästhetische Korrekturen.</span>
-        </p>
+      <article class="service-card anim">
+        <div class="service-icon-wrap">
+          <svg viewBox="0 0 24 24"><path d="M12 2a7 7 0 017 7c0 4-3 7.5-7 13C8 16.5 5 13 5 9a7 7 0 017-7z"/><circle cx="12" cy="9" r="2.5"/></svg>
+        </div>
+        <div class="service-title"><span class="t" data-hu="Megelőzés &amp; fogfehérítés" data-en="Prevention &amp; whitening" data-de="Prävention &amp; Aufhellung">Megelőzés &amp; fogfehérítés</span></div>
+        <p class="service-text"><span data-lang="hu">Professzionális fogtisztítás, fogpolírozás és fogfehérítés 60 perc alatt. Szükség esetén esztétikai korrekciót is javaslunk.</span><span data-lang="en" hidden>Professional cleaning, polishing and whitening within 60 minutes. Cosmetic correction recommended when needed.</span><span data-lang="de" hidden>Professionelle Reinigung, Polieren und Aufhellung in 60 Minuten. Ästhetische Korrekturen bei Bedarf.</span></p>
       </article>
 
-      <article class="service-card">
-        <div class="service-icon">😬</div>
-        <h3 class="service-title">
-          <span class="i18n" data-hu="Fogszabályozás" data-en="Orthodontics" data-de="Kieferorthopädie">Fogszabályozás</span>
-        </h3>
-        <p class="service-text">
-          <span data-lang="hu">Felnőtteknek és gyermekeknek egyaránt. Orthodontus szakorvos kollégánk a legkorszerűbb kivehető és rögzített készülékekkel végzi a fogszabályozást.</span>
-          <span data-lang="en" hidden>For adults and children alike. Our specialist performs orthodontic treatment with the most modern removable and fixed appliances.</span>
-          <span data-lang="de" hidden>Für Erwachsene und Kinder. Unser Fachzahnarzt führt kieferorthopädische Behandlungen mit modernsten herausnehmbaren und festen Apparaturen durch.</span>
-        </p>
+      <article class="service-card anim anim-d1">
+        <div class="service-icon-wrap">
+          <svg viewBox="0 0 24 24"><rect x="3" y="3" width="8" height="8" rx="1"/><rect x="13" y="3" width="8" height="8" rx="1"/><rect x="3" y="13" width="8" height="8" rx="1"/><rect x="13" y="13" width="8" height="8" rx="1"/></svg>
+        </div>
+        <div class="service-title"><span class="t" data-hu="Fogszabályozás" data-en="Orthodontics" data-de="Kieferorthopädie">Fogszabályozás</span></div>
+        <p class="service-text"><span data-lang="hu">Felnőtteknek és gyermekeknek egyaránt. Szakorvos kollégánk a legkorszerűbb kivehető és rögzített készülékekkel végzi a kezelést.</span><span data-lang="en" hidden>For adults and children alike. Our specialist uses the most modern removable and fixed appliances.</span><span data-lang="de" hidden>Für Erwachsene und Kinder. Unser Fachzahnarzt arbeitet mit modernsten herausnehmbaren und festen Apparaturen.</span></p>
       </article>
 
-      <article class="service-card">
-        <div class="service-icon">💊</div>
-        <h3 class="service-title">
-          <span class="i18n" data-hu="Fogmegőrző kezelések" data-en="Tooth-saving treatments" data-de="Zahnerhaltende Behandlungen">Fogmegőrző kezelések</span>
-        </h3>
-        <p class="service-text">
-          <span data-lang="hu">A beteg fogak kezelésének elsődleges célja a fogak megmentése, esztétikai és funkcionális helyreállítása — gyökérkezelés, tömések, betétek.</span>
-          <span data-lang="en" hidden>The primary goal is saving teeth through aesthetic and functional restoration — root canal treatment, fillings, inlays and onlays.</span>
-          <span data-lang="de" hidden>Oberstes Ziel ist die Zahnrettung durch ästhetische und funktionelle Wiederherstellung — Wurzelkanalbehandlung, Füllungen, Einlagefüllungen.</span>
-        </p>
+      <article class="service-card anim anim-d2">
+        <div class="service-icon-wrap">
+          <svg viewBox="0 0 24 24"><path d="M8.5 2a4.5 4.5 0 00-1 8.9V20a2 2 0 004 0v-9.1A4.5 4.5 0 008.5 2z"/><path d="M15.5 2a4.5 4.5 0 011 8.9V20a2 2 0 01-4 0v-9.1A4.5 4.5 0 0115.5 2z"/></svg>
+        </div>
+        <div class="service-title"><span class="t" data-hu="Fogmegőrző kezelések" data-en="Tooth-saving treatments" data-de="Zahnerhaltende Behandlungen">Fogmegőrző kezelések</span></div>
+        <p class="service-text"><span data-lang="hu">Gyökérkezelés, tömések, betétek — a fogak megmentése az elsődleges cél, esztétikai és funkcionális helyreállítással.</span><span data-lang="en" hidden>Root canal, fillings, inlays — saving teeth is the primary goal, with aesthetic and functional restoration.</span><span data-lang="de" hidden>Wurzelkanal, Füllungen, Einlagen — Zahnerhaltung als oberstes Ziel mit ästhetischer Wiederherstellung.</span></p>
       </article>
 
-      <article class="service-card">
-        <div class="service-icon">🔩</div>
-        <h3 class="service-title">
-          <span class="i18n" data-hu="Fogpótlások &amp; implantátumok" data-en="Prosthetics &amp; implants" data-de="Zahnersatz &amp; Implantate">Fogpótlások &amp; implantátumok</span>
-        </h3>
-        <p class="service-text">
-          <span data-lang="hu">A modern fogpótlás teljes eszköztárával — kivehető fogművektől az azonnal terhelhető fogbeültetésekig. Titán és cirkón implantátumok.</span>
-          <span data-lang="en" hidden>The full range of modern prosthetics — from removable dentures to immediately loadable implants. Titanium and zirconia implants available.</span>
-          <span data-lang="de" hidden>Das vollständige Spektrum moderner Zahnprothetik — von herausnehmbaren Prothesen bis hin zu sofortbelastbaren Implantaten. Titan- und Zirkonimplantate.</span>
-        </p>
+      <article class="service-card anim anim-d3">
+        <div class="service-icon-wrap">
+          <svg viewBox="0 0 24 24"><line x1="12" y1="2" x2="12" y2="8"/><line x1="12" y1="16" x2="12" y2="22"/><line x1="2" y1="12" x2="8" y2="12"/><line x1="16" y1="12" x2="22" y2="12"/><circle cx="12" cy="12" r="4"/></svg>
+        </div>
+        <div class="service-title"><span class="t" data-hu="Fogpótlás &amp; implantátum" data-en="Prosthetics &amp; implants" data-de="Zahnersatz &amp; Implantate">Fogpótlás &amp; implantátum</span></div>
+        <p class="service-text"><span data-lang="hu">Kivehető fogsorokat, koronákat, hidakat és titanium vagy cirkón implantátumokat egyaránt kínálunk. Azonnali terhelés lehetségese.</span><span data-lang="en" hidden>Removable dentures, crowns, bridges, and titanium or zirconia implants — including immediately loadable options.</span><span data-lang="de" hidden>Herausnehmbare Prothesen, Kronen, Brücken und Titan- oder Zirkonimplantate — auch mit Sofortbelastung.</span></p>
       </article>
 
-      <article class="service-card">
-        <div class="service-icon">🫁</div>
-        <h3 class="service-title">
-          <span class="i18n" data-hu="Fogágybetegségek" data-en="Periodontics" data-de="Parodontologie">Fogágybetegségek</span>
-        </h3>
-        <p class="service-text">
-          <span data-lang="hu">Professzionális fogkő-eltávolítás, gyógyszeres kezelés, edukáció, szükség esetén kisebb műtéti beavatkozások a fogágybetegség ellen.</span>
-          <span data-lang="en" hidden>Professional tartar removal, medication, patient education and minor surgical procedures to combat periodontal disease.</span>
-          <span data-lang="de" hidden>Professionelle Zahnsteinentfernung, Medikamente, Patientenaufklärung und kleinere chirurgische Eingriffe gegen Parodontitis.</span>
-        </p>
+      <article class="service-card anim anim-d4">
+        <div class="service-icon-wrap">
+          <svg viewBox="0 0 24 24"><path d="M3 12s3-4 9-4 9 4 9 4-3 4-9 4-9-4-9-4z"/><path d="M12 12v6"/><path d="M9 15l3 3 3-3"/></svg>
+        </div>
+        <div class="service-title"><span class="t" data-hu="Fogágybetegségek" data-en="Periodontics" data-de="Parodontologie">Fogágybetegségek</span></div>
+        <p class="service-text"><span data-lang="hu">Professzionális fogkő-eltávolítás, gyógyszeres kezelés, edukáció és szükség esetén kisebb műtéti beavatkozások.</span><span data-lang="en" hidden>Professional tartar removal, medication, patient education and minor surgical procedures when required.</span><span data-lang="de" hidden>Professionelle Zahnsteinentfernung, Medikamente, Aufklärung und kleinere chirurgische Eingriffe bei Bedarf.</span></p>
       </article>
 
-      <article class="service-card">
-        <div class="service-icon">🔪</div>
-        <h3 class="service-title">
-          <span class="i18n" data-hu="Szájsebészet" data-en="Oral surgery" data-de="Oralchirurgie">Szájsebészet</span>
-        </h3>
-        <p class="service-text">
-          <span data-lang="hu">Fogászati és kisebb szájsebészeti műtétek. A restaurációkhoz használt anyagok minden esetben <strong>fogszínűek</strong>.</span>
-          <span data-lang="en" hidden>Dental and minor oral surgical procedures. All restoration materials used are <strong>tooth-colored</strong> in every case.</span>
-          <span data-lang="de" hidden>Zahn- und kleinere oralchirurgische Eingriffe. Alle verwendeten Restaurationsmaterialien sind stets <strong>zahnfarbig</strong>.</span>
-        </p>
+      <article class="service-card anim anim-d5">
+        <div class="service-icon-wrap">
+          <svg viewBox="0 0 24 24"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 013 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+        </div>
+        <div class="service-title"><span class="t" data-hu="Szájsebészet" data-en="Oral surgery" data-de="Oralchirurgie">Szájsebészet</span></div>
+        <p class="service-text"><span data-lang="hu">Fogászati és kisebb szájsebészeti műtétek. A restaurációkhoz használt anyagok minden esetben fogszínűek.</span><span data-lang="en" hidden>Dental and minor oral surgical procedures. All restoration materials are tooth-colored in every case.</span><span data-lang="de" hidden>Zahn- und kleinere oralchirurgische Eingriffe. Alle Restaurationsmaterialien sind stets zahnfarben.</span></p>
       </article>
 
     </div>
   </div>
 </section>
 
-<!-- ═══ TEAM ═══ -->
-<section id="csapat" class="section section-alt">
+<!-- ══ TEAM ══ -->
+<section id="csapat" class="section">
   <div class="container">
-    <h2 class="section-title">
-      <span class="i18n" data-hu="Munkatársaink" data-en="Our Team" data-de="Unser Team">Munkatársaink</span>
-    </h2>
-    <p class="section-sub">
-      <span data-lang="hu">Tapasztalt szakemberek, akik az Ön egészségéért dolgoznak</span>
-      <span data-lang="en" hidden>Experienced professionals dedicated to your dental health</span>
-      <span data-lang="de" hidden>Erfahrene Fachleute, die sich um Ihre Zahngesundheit kümmern</span>
-    </p>
+    <div class="section-head anim">
+      <div class="section-label"><span class="t" data-hu="Szakembereink" data-en="Our specialists" data-de="Unsere Spezialisten">Szakembereink</span></div>
+      <h2 class="section-title"><span class="t" data-hu="Munkatársaink" data-en="Our Team" data-de="Unser Team">Munkatársaink</span></h2>
+      <p class="section-sub"><span data-lang="hu">Tapasztalt szakemberek, akik az Ön egészségéért dolgoznak</span><span data-lang="en" hidden>Experienced professionals dedicated to your dental health</span><span data-lang="de" hidden>Erfahrene Fachleute für Ihre Zahngesundheit</span></p>
+    </div>
     <div class="team-grid">
-      <div class="team-card">
-        <div class="team-avatar-placeholder">👨‍⚕️</div>
+
+      <div class="team-card anim">
+        <div class="team-avatar">
+          <svg viewBox="0 0 24 24"><path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+        </div>
         <div class="team-name">Dr. Ványi Gyula</div>
-        <div class="team-role">
-          <span data-lang="hu">Fog- és szájbetegségek szakorvosa<br>Implantológus fogorvos</span>
-          <span data-lang="en" hidden>Specialist in Dental &amp; Oral Diseases<br>Implant Surgeon</span>
-          <span data-lang="de" hidden>Fachzahnarzt für Zahn- und Mundkrankheiten<br>Implantologischer Zahnarzt</span>
-        </div>
+        <div class="team-role"><span data-lang="hu">Fog- és szájbetegségek szakorvosa</span><span data-lang="en" hidden>Specialist in Dental &amp; Oral Diseases</span><span data-lang="de" hidden>Fachzahnarzt für Zahn- und Mundkrankheiten</span></div>
+        <span class="team-tag"><span class="t" data-hu="Implantológus" data-en="Implantologist" data-de="Implantologe">Implantológus</span></span>
       </div>
-      <div class="team-card">
-        <div class="team-avatar-placeholder">👨‍⚕️</div>
+
+      <div class="team-card anim anim-d1">
+        <div class="team-avatar">
+          <svg viewBox="0 0 24 24"><path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+        </div>
         <div class="team-name">Dr. Morvai Rudolf</div>
-        <div class="team-role">
-          <span data-lang="hu">Fogorvos</span>
-          <span data-lang="en" hidden>Dentist</span>
-          <span data-lang="de" hidden>Zahnarzt</span>
-        </div>
+        <div class="team-role"><span data-lang="hu">Fogorvos</span><span data-lang="en" hidden>Dentist</span><span data-lang="de" hidden>Zahnarzt</span></div>
+        <span class="team-tag"><span class="t" data-hu="Fogászat" data-en="Dentistry" data-de="Zahnheilkunde">Fogászat</span></span>
       </div>
-      <div class="team-card">
-        <div class="team-avatar-placeholder">👩‍⚕️</div>
+
+      <div class="team-card anim anim-d2">
+        <div class="team-avatar">
+          <svg viewBox="0 0 24 24"><path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+        </div>
         <div class="team-name">Suszter Nikolett</div>
-        <div class="team-role">
-          <span data-lang="hu">Dentálhigiénikus szakasszisztens</span>
-          <span data-lang="en" hidden>Dental Hygiene Specialist Assistant</span>
-          <span data-lang="de" hidden>Dentalhygiene-Fachassistentin</span>
-        </div>
+        <div class="team-role"><span data-lang="hu">Dentálhigiénikus szakasszisztens</span><span data-lang="en" hidden>Dental Hygiene Specialist Assistant</span><span data-lang="de" hidden>Dentalhygiene-Fachassistentin</span></div>
+        <span class="team-tag"><span class="t" data-hu="Higiénia" data-en="Hygiene" data-de="Hygiene">Higiénia</span></span>
       </div>
-      <div class="team-card">
-        <div class="team-avatar-placeholder">👩‍⚕️</div>
+
+      <div class="team-card anim anim-d3">
+        <div class="team-avatar">
+          <svg viewBox="0 0 24 24"><path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+        </div>
         <div class="team-name">Klézli Erika</div>
-        <div class="team-role">
-          <span data-lang="hu">Dentálhigiénikus szakasszisztens</span>
-          <span data-lang="en" hidden>Dental Hygiene Specialist Assistant</span>
-          <span data-lang="de" hidden>Dentalhygiene-Fachassistentin</span>
-        </div>
+        <div class="team-role"><span data-lang="hu">Dentálhigiénikus szakasszisztens</span><span data-lang="en" hidden>Dental Hygiene Specialist Assistant</span><span data-lang="de" hidden>Dentalhygiene-Fachassistentin</span></div>
+        <span class="team-tag"><span class="t" data-hu="Higiénia" data-en="Hygiene" data-de="Hygiene">Higiénia</span></span>
       </div>
-    </div>
-    <div style="text-align:center;margin-top:2.5rem">
-      <img src="images/Fogorvosaink_uj.png" alt="A Ványi Fogászat csapata" style="max-width:560px;width:100%;border-radius:var(--radius);box-shadow:var(--shadow);margin:0 auto" loading="lazy">
+
     </div>
   </div>
 </section>
 
-<!-- ═══ GALLERY ═══ -->
-<section id="kepek" class="section">
+<!-- ══ GALLERY ══ -->
+<section id="kepek" class="section bg-tint">
   <div class="container">
-    <h2 class="section-title">
-      <span class="i18n" data-hu="Képek a rendelőről" data-en="Gallery" data-de="Galerie">Képek a rendelőről</span>
-    </h2>
-    <p class="section-sub">
-      <span data-lang="hu">Tekintse meg rendelőnket és környezetünket</span>
-      <span data-lang="en" hidden>Take a look at our practice and surroundings</span>
-      <span data-lang="de" hidden>Sehen Sie sich unsere Praxis und ihre Umgebung an</span>
-    </p>
+    <div class="section-head anim">
+      <div class="section-label"><span class="t" data-hu="Rendelőnk" data-en="Our practice" data-de="Unsere Praxis">Rendelőnk</span></div>
+      <h2 class="section-title"><span class="t" data-hu="Képek a rendelőről" data-en="Gallery" data-de="Galerie">Képek a rendelőről</span></h2>
+    </div>
     <div class="gallery-grid">
-      <img src="images/k1.png" alt="Garay tér – Ványi Fogászat bejárata, Szekszárd" loading="lazy" onclick="openLightbox(this.src)">
-      <img src="images/k2.png" alt="Obsitos udvarház aulája" loading="lazy" onclick="openLightbox(this.src)">
-      <img src="images/k3.png" alt="Rendelő folyosója" loading="lazy" onclick="openLightbox(this.src)">
-      <img src="images/k4.png" alt="Fogászati kezelőszék" loading="lazy" onclick="openLightbox(this.src)">
+      <div class="gallery-item anim" onclick="openLb(this.querySelector('img').src)">
+        <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=700&q=80"
+             onerror="this.src='images/k1.png'"
+             alt="Fogászati rendelő">
+      </div>
+      <div class="gallery-item anim anim-d1" onclick="openLb(this.querySelector('img').src)">
+        <img src="https://images.unsplash.com/photo-1606811841689-23dfddce3e95?auto=format&fit=crop&w=700&q=80"
+             onerror="this.src='images/k2.png'"
+             alt="Fogászati szék és felszerelés">
+      </div>
+      <div class="gallery-item anim anim-d2" onclick="openLb(this.querySelector('img').src)">
+        <img src="https://images.unsplash.com/photo-1598256989800-fe5f95da9787?auto=format&fit=crop&w=700&q=80"
+             onerror="this.src='images/k3.png'"
+             alt="Fogorvosi vizsgálat">
+      </div>
+      <div class="gallery-item anim anim-d3" onclick="openLb(this.querySelector('img').src)">
+        <img src="https://images.unsplash.com/photo-1559757148-5c350d0d3c56?auto=format&fit=crop&w=700&q=80"
+             onerror="this.src='images/k4.png'"
+             alt="Modern fogászati berendezés">
+      </div>
     </div>
   </div>
 </section>
 
-<!-- ═══ PRICES ═══ -->
-<section id="arak" class="section section-alt">
+<!-- ══ PRICES ══ -->
+<section id="arak" class="section">
   <div class="container">
-    <h2 class="section-title">
-      <span class="i18n" data-hu="Tájékoztató áraink" data-en="Price List" data-de="Preisliste">Tájékoztató áraink</span>
-    </h2>
-    <p class="section-sub">
-      <span data-lang="hu">2024-es tájékoztató árak — az egyedi kezelési tervet konzultáción pontosítjuk</span>
-      <span data-lang="en" hidden>2024 indicative prices — exact treatment costs are agreed during consultation</span>
-      <span data-lang="de" hidden>Unverbindliche Preise 2024 — der genaue Behandlungsplan wird bei der Konsultation besprochen</span>
-    </p>
-
-    <div class="price-category">
-      <div class="price-category-title">
-        <span class="i18n" data-hu="Diagnosztika, megelőzés, fogmegtartó kezelések" data-en="Diagnostics, prevention &amp; tooth-saving treatments" data-de="Diagnostik, Prävention &amp; zahnerhaltende Behandlungen">Diagnosztika, megelőzés, fogmegtartó kezelések</span>
-      </div>
-      <table class="price-table" aria-label="Diagnosztikai árak">
-        <tbody>
-          <tr><td><span class="i18n" data-hu="Vizitdíj, szakorvosi vizsgálat, kezelési terv" data-en="Consultation, specialist examination, treatment plan" data-de="Konsultation, Fachuntersuchung, Behandlungsplan">Vizitdíj, szakorvosi vizsgálat, kezelési terv</span></td><td>10 000 – 35 000 Ft</td></tr>
-          <tr><td><span class="i18n" data-hu="Érzéstelenítés" data-en="Anaesthesia" data-de="Anästhesie">Érzéstelenítés</span></td><td>15 000 – 35 000 Ft</td></tr>
-          <tr><td><span class="i18n" data-hu="Fogtömések, barázdazárás" data-en="Fillings, fissure sealant" data-de="Füllungen, Fissurenversiegelung">Fogtömések, barázdazárás</span></td><td>15 000 – 35 000 Ft</td></tr>
-          <tr><td><span class="i18n" data-hu="Betét (inlay/onlay)" data-en="Inlay / onlay" data-de="Einlagefüllung (Inlay/Onlay)">Betét (inlay/onlay)</span></td><td>65 000 – 120 000 Ft</td></tr>
-          <tr><td><span class="i18n" data-hu="Gyökértömés" data-en="Root canal treatment" data-de="Wurzelkanalbehandlung">Gyökértömés</span></td><td>40 000 – 85 000 Ft</td></tr>
-          <tr><td><span class="i18n" data-hu="Fogfehérítés (alsó és felső)" data-en="Teeth whitening (upper &amp; lower)" data-de="Zahnaufhellung (Ober- und Unterkiefer)">Fogfehérítés (alsó és felső)</span></td><td>105 000 – 135 000 Ft</td></tr>
-          <tr><td><span class="i18n" data-hu="Fogkő-eltávolítás és fogpolírozás" data-en="Tartar removal &amp; polishing" data-de="Zahnsteinentfernung &amp; Polieren">Fogkő-eltávolítás és fogpolírozás</span></td><td>20 000 – 35 000 Ft</td></tr>
-          <tr><td><span class="i18n" data-hu="Csapos fogfelépítés" data-en="Post and core build-up" data-de="Stiftaufbau">Csapos fogfelépítés</span></td><td>25 000 – 35 000 Ft</td></tr>
-          <tr><td><span class="i18n" data-hu="Röntgen – 2D intraorális (1-2 fogról)" data-en="X-ray – 2D intraoral (1-2 teeth)" data-de="Röntgen – 2D intraorale (1-2 Zähne)">Röntgen – 2D intraorális (1-2 fogról)</span></td><td>6 000 – 10 000 Ft</td></tr>
-          <tr><td><span class="i18n" data-hu="Röntgen – 2D OP (teljes panoráma)" data-en="X-ray – 2D panoramic (OPG)" data-de="Röntgen – 2D Panorama (OPG)">Röntgen – 2D OP (teljes panoráma)</span></td><td>12 000 – 15 000 Ft</td></tr>
-          <tr><td><span class="i18n" data-hu="Röntgen – 3D (CBCT)" data-en="X-ray – 3D (CBCT)" data-de="Röntgen – 3D (CBCT)">Röntgen – 3D (CBCT)</span></td><td>30 000 – 35 000 Ft</td></tr>
-        </tbody>
-      </table>
+    <div class="section-head anim">
+      <div class="section-label"><span class="t" data-hu="2024-es árak" data-en="2024 prices" data-de="Preise 2024">2024-es árak</span></div>
+      <h2 class="section-title"><span class="t" data-hu="Tájékoztató áraink" data-en="Price List" data-de="Preisliste">Tájékoztató áraink</span></h2>
+      <p class="section-sub"><span data-lang="hu">Kattintson egy kategóriára a részletes árakért</span><span data-lang="en" hidden>Click a category to see detailed prices</span><span data-lang="de" hidden>Klicken Sie auf eine Kategorie für Detailpreise</span></p>
     </div>
+    <div class="price-accordion anim">
 
-    <div class="price-category">
-      <div class="price-category-title">
-        <span class="i18n" data-hu="Fogpótlások" data-en="Prosthetics" data-de="Zahnersatz">Fogpótlások</span>
+      <div class="pacc-item">
+        <button class="pacc-head" aria-expanded="false">
+          <div class="pacc-label"><div class="pacc-dot"></div><span class="pacc-title"><span class="t" data-hu="Diagnosztika, megelőzés, fogmegtartó kezelések" data-en="Diagnostics, prevention &amp; tooth-saving" data-de="Diagnostik, Prävention &amp; Zahnerhaltung">Diagnosztika, megelőzés, fogmegtartó kezelések</span></span></div>
+          <div class="pacc-icon">+</div>
+        </button>
+        <div class="pacc-body"><div class="pacc-inner">
+          <div class="price-row"><span class="price-row-name"><span class="t" data-hu="Vizitdíj, szakorvosi vizsgálat, kezelési terv" data-en="Consultation, examination, treatment plan" data-de="Konsultation, Untersuchung, Behandlungsplan">Vizitdíj, szakorvosi vizsgálat, kezelési terv</span></span><span class="price-row-val">10 000 – 35 000 Ft</span></div>
+          <div class="price-row"><span class="price-row-name"><span class="t" data-hu="Érzéstelenítés" data-en="Anaesthesia" data-de="Anästhesie">Érzéstelenítés</span></span><span class="price-row-val">15 000 – 35 000 Ft</span></div>
+          <div class="price-row"><span class="price-row-name"><span class="t" data-hu="Fogtömések, barázdazárás" data-en="Fillings, fissure sealant" data-de="Füllungen, Fissurenversiegelung">Fogtömések, barázdazárás</span></span><span class="price-row-val">15 000 – 35 000 Ft</span></div>
+          <div class="price-row"><span class="price-row-name"><span class="t" data-hu="Betét (inlay / onlay)" data-en="Inlay / onlay" data-de="Einlagefüllung (Inlay/Onlay)">Betét (inlay / onlay)</span></span><span class="price-row-val">65 000 – 120 000 Ft</span></div>
+          <div class="price-row"><span class="price-row-name"><span class="t" data-hu="Gyökértömés" data-en="Root canal treatment" data-de="Wurzelkanalbehandlung">Gyökértömés</span></span><span class="price-row-val">40 000 – 85 000 Ft</span></div>
+          <div class="price-row"><span class="price-row-name"><span class="t" data-hu="Fogfehérítés (alsó + felső)" data-en="Whitening (upper + lower)" data-de="Aufhellung (Ober- + Unterkiefer)">Fogfehérítés (alsó + felső)</span></span><span class="price-row-val">105 000 – 135 000 Ft</span></div>
+          <div class="price-row"><span class="price-row-name"><span class="t" data-hu="Fogkő-eltávolítás &amp; fogpolírozás" data-en="Tartar removal &amp; polishing" data-de="Zahnsteinentfernung &amp; Polieren">Fogkő-eltávolítás &amp; fogpolírozás</span></span><span class="price-row-val">20 000 – 35 000 Ft</span></div>
+          <div class="price-row"><span class="price-row-name"><span class="t" data-hu="Röntgen – 2D intraorális" data-en="X-ray – 2D intraoral" data-de="Röntgen – 2D intraorale">Röntgen – 2D intraorális</span></span><span class="price-row-val">6 000 – 10 000 Ft</span></div>
+          <div class="price-row"><span class="price-row-name"><span class="t" data-hu="Röntgen – 2D panoráma (OPG)" data-en="X-ray – 2D panoramic (OPG)" data-de="Röntgen – 2D Panorama (OPG)">Röntgen – 2D panoráma (OPG)</span></span><span class="price-row-val">12 000 – 15 000 Ft</span></div>
+          <div class="price-row"><span class="price-row-name"><span class="t" data-hu="Röntgen – 3D (CBCT)" data-en="X-ray – 3D (CBCT)" data-de="Röntgen – 3D (CBCT)">Röntgen – 3D (CBCT)</span></span><span class="price-row-val">30 000 – 35 000 Ft</span></div>
+        </div></div>
       </div>
-      <table class="price-table" aria-label="Fogpótlás árak">
-        <tbody>
-          <tr><td><span class="i18n" data-hu="Csiszolás (fogankénti)" data-en="Preparation (per tooth)" data-de="Präparation (je Zahn)">Csiszolás (fogankénti)</span></td><td>3 000 – 5 000 Ft</td></tr>
-          <tr><td><span class="i18n" data-hu="Lenyomat" data-en="Impression" data-de="Abformung">Lenyomat</span></td><td>10 000 – 25 000 Ft</td></tr>
-          <tr><td><span class="i18n" data-hu="Korona/híd – műanyag" data-en="Crown/bridge – acrylic" data-de="Krone/Brücke – Kunststoff">Korona/híd – műanyag</span></td><td>20 000 – 35 000 Ft</td></tr>
-          <tr><td><span class="i18n" data-hu="Korona/híd – porcelán fémvázas" data-en="Crown/bridge – porcelain fused to metal" data-de="Krone/Brücke – Metallkeramik">Korona/híd – porcelán fémvázas</span></td><td>45 000 – 65 000 Ft</td></tr>
-          <tr><td><span class="i18n" data-hu="Korona/híd – cirkónium (fogszínű)" data-en="Crown/bridge – full zirconia (tooth-colored)" data-de="Krone/Brücke – Vollzirkon (zahnfarben)">Korona/híd – cirkónium (fogszínű)</span></td><td>75 000 – 95 000 Ft</td></tr>
-          <tr><td><span class="i18n" data-hu="Préskerámia betét, korona, híd" data-en="Pressed ceramic inlay, crown, bridge" data-de="Presskeramik Einlage, Krone, Brücke">Préskerámia betét, korona, híd</span></td><td>95 000 – 120 000 Ft</td></tr>
-          <tr><td><span class="i18n" data-hu="Kivehető fogsor + precíziós rögzítés" data-en="Removable denture + precision attachments" data-de="Herausnehmbare Prothese + Präzisionsattachments">Kivehető fogsor + precíziós rögzítés</span></td><td>180 000 – 290 000 Ft</td></tr>
-          <tr><td><span class="i18n" data-hu="Kivehető fogsor + fémlemez" data-en="Removable denture + metal plate" data-de="Herausnehmbare Prothese + Metallbasis">Kivehető fogsor + fémlemez</span></td><td>60 000 – 90 000 Ft</td></tr>
-          <tr><td><span class="i18n" data-hu="Fogsor javítás, alábélelés, harapásemelő" data-en="Denture repair, relining, bite raiser" data-de="Prothesenreparatur, Unterfütterung, Bisshebung">Fogsor javítás, alábélelés, harapásemelő</span></td><td>40 000 – 60 000 Ft</td></tr>
-        </tbody>
-      </table>
-    </div>
 
-    <div class="price-category">
-      <div class="price-category-title">
-        <span class="i18n" data-hu="Szájsebészeti / parodontológiai műtétek" data-en="Oral surgery / periodontal procedures" data-de="Oralchirurgie / parodontologische Eingriffe">Szájsebészeti / parodontológiai műtétek</span>
+      <div class="pacc-item">
+        <button class="pacc-head" aria-expanded="false">
+          <div class="pacc-label"><div class="pacc-dot"></div><span class="pacc-title"><span class="t" data-hu="Fogpótlások" data-en="Prosthetics" data-de="Zahnersatz">Fogpótlások</span></span></div>
+          <div class="pacc-icon">+</div>
+        </button>
+        <div class="pacc-body"><div class="pacc-inner">
+          <div class="price-row"><span class="price-row-name"><span class="t" data-hu="Csiszolás (fogankénti)" data-en="Preparation (per tooth)" data-de="Präparation (je Zahn)">Csiszolás (fogankénti)</span></span><span class="price-row-val">3 000 – 5 000 Ft</span></div>
+          <div class="price-row"><span class="price-row-name"><span class="t" data-hu="Lenyomat" data-en="Impression" data-de="Abformung">Lenyomat</span></span><span class="price-row-val">10 000 – 25 000 Ft</span></div>
+          <div class="price-row"><span class="price-row-name"><span class="t" data-hu="Korona/híd – műanyag" data-en="Crown/bridge – acrylic" data-de="Krone/Brücke – Kunststoff">Korona/híd – műanyag</span></span><span class="price-row-val">20 000 – 35 000 Ft</span></div>
+          <div class="price-row"><span class="price-row-name"><span class="t" data-hu="Korona/híd – fémkerámia" data-en="Crown/bridge – metal-ceramic" data-de="Krone/Brücke – Metallkeramik">Korona/híd – fémkerámia</span></span><span class="price-row-val">45 000 – 65 000 Ft</span></div>
+          <div class="price-row"><span class="price-row-name"><span class="t" data-hu="Korona/híd – cirkónium" data-en="Crown/bridge – zirconia" data-de="Krone/Brücke – Vollzirkon">Korona/híd – cirkónium</span></span><span class="price-row-val">75 000 – 95 000 Ft</span></div>
+          <div class="price-row"><span class="price-row-name"><span class="t" data-hu="Préskerámia" data-en="Pressed ceramic" data-de="Presskeramik">Préskerámia</span></span><span class="price-row-val">95 000 – 120 000 Ft</span></div>
+          <div class="price-row"><span class="price-row-name"><span class="t" data-hu="Kivehető fogsor + precíziós rögzítés" data-en="Removable denture + precision attachments" data-de="Prothese + Präzisionsattachments">Kivehető fogsor + precíziós rögzítés</span></span><span class="price-row-val">180 000 – 290 000 Ft</span></div>
+          <div class="price-row"><span class="price-row-name"><span class="t" data-hu="Kivehető fogsor + fémlemez" data-en="Removable denture + metal plate" data-de="Prothese + Metallbasis">Kivehető fogsor + fémlemez</span></span><span class="price-row-val">60 000 – 90 000 Ft</span></div>
+        </div></div>
       </div>
-      <table class="price-table" aria-label="Szájsebészeti árak">
-        <tbody>
-          <tr><td><span class="i18n" data-hu="Szájsebészeti műtét (alapdíj)" data-en="Oral surgical procedure (base fee)" data-de="Oralchirurgischer Eingriff (Grundpreis)">Szájsebészeti műtét (alapdíj)</span></td><td>60 000 – 195 000 Ft</td></tr>
-          <tr><td><span class="i18n" data-hu="+ csontpótló anyag" data-en="+ bone substitute material" data-de="+ Knochenersatzmaterial">+ csontpótló anyag</span></td><td>85 000 – 195 000 Ft</td></tr>
-          <tr><td><span class="i18n" data-hu="Műtő előkészítése (sterilizálás)" data-en="OR preparation (full sterilisation)" data-de="OP-Vorbereitung (vollständige Sterilisation)">Műtő előkészítése (sterilizálás)</span></td><td>50 000 Ft</td></tr>
-        </tbody>
-      </table>
-    </div>
 
-    <div class="price-category">
-      <div class="price-category-title">
-        <span class="i18n" data-hu="Implantáció (fogbeültetés)" data-en="Implantology (dental implants)" data-de="Implantologie (Zahnimplantate)">Implantáció (fogbeültetés)</span>
+      <div class="pacc-item">
+        <button class="pacc-head" aria-expanded="false">
+          <div class="pacc-label"><div class="pacc-dot"></div><span class="pacc-title"><span class="t" data-hu="Szájsebészet &amp; parodontológia" data-en="Oral surgery &amp; periodontics" data-de="Oralchirurgie &amp; Parodontologie">Szájsebészet &amp; parodontológia</span></span></div>
+          <div class="pacc-icon">+</div>
+        </button>
+        <div class="pacc-body"><div class="pacc-inner">
+          <div class="price-row"><span class="price-row-name"><span class="t" data-hu="Szájsebészeti műtét (alapdíj)" data-en="Oral surgical procedure (base)" data-de="Oralchirurgischer Eingriff (Grundpreis)">Szájsebészeti műtét (alapdíj)</span></span><span class="price-row-val">60 000 – 195 000 Ft</span></div>
+          <div class="price-row"><span class="price-row-name"><span class="t" data-hu="+ csontpótló anyag" data-en="+ bone substitute" data-de="+ Knochenersatzmaterial">+ csontpótló anyag</span></span><span class="price-row-val">85 000 – 195 000 Ft</span></div>
+          <div class="price-row"><span class="price-row-name"><span class="t" data-hu="Műtő előkészítése (sterilizálás)" data-en="OR preparation (sterilisation)" data-de="OP-Vorbereitung (Sterilisation)">Műtő előkészítése (sterilizálás)</span></span><span class="price-row-val">50 000 Ft</span></div>
+        </div></div>
       </div>
-      <table class="price-table" aria-label="Implantáció árak">
-        <tbody>
-          <tr><td><span class="i18n" data-hu="Műgyökér és műtéti behelyezése" data-en="Implant fixture &amp; surgical placement" data-de="Implantat &amp; chirurgische Einpflanzung">Műgyökér és műtéti behelyezése</span></td><td>255 000 – 350 000 Ft</td></tr>
-          <tr><td><span class="i18n" data-hu="Felépítmény (titán/cirkón) és adaptálása" data-en="Abutment (titanium/zirconia) &amp; fitting" data-de="Aufbau (Titan/Zirkon) &amp; Einsetzen">Felépítmény (titán/cirkón) és adaptálása</span></td><td>85 000 – 125 000 Ft</td></tr>
-        </tbody>
-      </table>
-    </div>
 
-    <div class="price-note">
-      <span data-lang="hu">ℹ️ Az árak tájékoztató jellegűek, az egyedi kezelési tervet és a pontos költségeket a konzultáción állapítjuk meg. Az árak az ÁFÁ-t tartalmazzák.</span>
-      <span data-lang="en" hidden>ℹ️ Prices are indicative. The individual treatment plan and exact costs are determined during consultation. Prices include VAT.</span>
-      <span data-lang="de" hidden>ℹ️ Die Preise sind unverbindlich. Der individuelle Behandlungsplan und die genauen Kosten werden bei der Konsultation festgelegt. Preise inkl. MwSt.</span>
+      <div class="pacc-item">
+        <button class="pacc-head" aria-expanded="false">
+          <div class="pacc-label"><div class="pacc-dot"></div><span class="pacc-title"><span class="t" data-hu="Implantáció (fogbeültetés)" data-en="Implantology" data-de="Implantologie">Implantáció (fogbeültetés)</span></span></div>
+          <div class="pacc-icon">+</div>
+        </button>
+        <div class="pacc-body"><div class="pacc-inner">
+          <div class="price-row"><span class="price-row-name"><span class="t" data-hu="Műgyökér és műtéti behelyezése" data-en="Implant fixture &amp; surgical placement" data-de="Implantat &amp; chirurgische Einpflanzung">Műgyökér és műtéti behelyezése</span></span><span class="price-row-val">255 000 – 350 000 Ft</span></div>
+          <div class="price-row"><span class="price-row-name"><span class="t" data-hu="Felépítmény (titán/cirkón) &amp; adaptálás" data-en="Abutment (titanium/zirconia) &amp; fitting" data-de="Aufbau (Titan/Zirkon) &amp; Einsetzen">Felépítmény (titán/cirkón) &amp; adaptálás</span></span><span class="price-row-val">85 000 – 125 000 Ft</span></div>
+        </div></div>
+      </div>
+
+    </div>
+    <div class="price-note anim">
+      <span class="price-note-icon">ℹ️</span>
+      <span data-lang="hu">Az árak tájékoztató jellegűek; az egyedi kezelési tervet és a pontos díjakat a konzultáción egyeztetjük. Az árak ÁFÁ-t tartalmaznak.</span>
+      <span data-lang="en" hidden>Prices are indicative; the individual treatment plan and exact costs are agreed during consultation. Prices include VAT.</span>
+      <span data-lang="de" hidden>Preise sind unverbindlich; der individuelle Behandlungsplan und genaue Kosten werden bei der Konsultation besprochen. Inkl. MwSt.</span>
     </div>
   </div>
 </section>
 
-<!-- ═══ FAQ ═══ -->
-<section id="gyik" class="section">
+<!-- ══ FAQ ══ -->
+<section id="gyik" class="section bg-tint">
   <div class="container">
-    <h2 class="section-title">
-      <span class="i18n" data-hu="Gyakori kérdések" data-en="Frequently Asked Questions" data-de="Häufig gestellte Fragen">Gyakori kérdések</span>
-    </h2>
-    <p class="section-sub">
-      <span data-lang="hu">Amit pácienseink a leggyakrabban kérdeznek</span>
-      <span data-lang="en" hidden>What our patients ask most often</span>
-      <span data-lang="de" hidden>Was unsere Patienten am häufigsten fragen</span>
-    </p>
-    <div class="faq-list" role="list">
+    <div class="section-head anim">
+      <div class="section-label">FAQ</div>
+      <h2 class="section-title"><span class="t" data-hu="Gyakori kérdések" data-en="Frequently Asked Questions" data-de="Häufige Fragen">Gyakori kérdések</span></h2>
+    </div>
+    <div class="faq-list">
 
-      <div class="faq-item" role="listitem">
+      <div class="faq-item anim">
         <button class="faq-q" aria-expanded="false">
-          <span data-lang="hu">Hogyan tudok időpontot foglalni?</span>
-          <span data-lang="en" hidden>How do I book an appointment?</span>
-          <span data-lang="de" hidden>Wie kann ich einen Termin buchen?</span>
-          <span class="faq-icon" aria-hidden="true">+</span>
+          <span><span data-lang="hu">Hogyan foglalhatok időpontot?</span><span data-lang="en" hidden>How do I book an appointment?</span><span data-lang="de" hidden>Wie buche ich einen Termin?</span></span>
+          <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="6 9 12 15 18 9"/></svg>
         </button>
-        <div class="faq-a" role="region">
-          <p>
-            <span data-lang="hu">Időpontot telefonon a +36 74 416-400 számon, e-mailben a drvanyifog@drvanyifog.t-online.hu címen, vagy az oldalon lévő kapcsolatfelvételiűrlapon keresztül lehet foglalni. Előzetesen mindig szükséges a bejelentkezés.</span>
-            <span data-lang="en" hidden>You can book an appointment by phone at +36 74 416-400, by e-mail at drvanyifog@drvanyifog.t-online.hu, or through the contact form on this page. Prior registration is always required.</span>
-            <span data-lang="de" hidden>Termine können telefonisch unter +36 74 416-400, per E-Mail an drvanyifog@drvanyifog.t-online.hu oder über das Kontaktformular auf dieser Seite gebucht werden. Eine vorherige Anmeldung ist immer erforderlich.</span>
-          </p>
-        </div>
+        <div class="faq-a"><p><span data-lang="hu">Telefonon a +36 74 416-400 számon, e-mailben a drvanyifog@drvanyifog.t-online.hu címen, vagy az oldal kapcsolati űrlapján. Előzetes bejelentkezés szükséges.</span><span data-lang="en" hidden>By phone at +36 74 416-400, by e-mail at drvanyifog@drvanyifog.t-online.hu, or via the contact form. Prior registration is always required.</span><span data-lang="de" hidden>Telefonisch unter +36 74 416-400, per E-Mail an drvanyifog@drvanyifog.t-online.hu oder über das Kontaktformular. Vorherige Anmeldung erforderlich.</span></p></div>
       </div>
 
-      <div class="faq-item" role="listitem">
+      <div class="faq-item anim anim-d1">
         <button class="faq-q" aria-expanded="false">
-          <span data-lang="hu">Vállalnak-e gyermekeket?</span>
-          <span data-lang="en" hidden>Do you treat children?</span>
-          <span data-lang="de" hidden>Behandeln Sie auch Kinder?</span>
-          <span class="faq-icon" aria-hidden="true">+</span>
+          <span><span data-lang="hu">Vállalnak gyermekeket is?</span><span data-lang="en" hidden>Do you treat children?</span><span data-lang="de" hidden>Behandeln Sie auch Kinder?</span></span>
+          <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="6 9 12 15 18 9"/></svg>
         </button>
-        <div class="faq-a" role="region">
-          <p>
-            <span data-lang="hu">Igen, gyermekfogászati ellátást is nyújtunk. Orthodontus szakorvos kollégánk felnőtteknek és gyermekeknek egyaránt végez fogszabályozást a legkorszerűbb kivehető és rögzített készülékekkel.</span>
-            <span data-lang="en" hidden>Yes, we provide paediatric dental care. Our orthodontic specialist performs treatment for both adults and children using the most modern removable and fixed appliances.</span>
-            <span data-lang="de" hidden>Ja, wir bieten auch Kinderzahnheilkunde an. Unser kieferorthopädischer Fachzahnarzt behandelt Erwachsene und Kinder mit modernsten herausnehmbaren und festen Apparaturen.</span>
-          </p>
-        </div>
+        <div class="faq-a"><p><span data-lang="hu">Igen, gyermekfogászati ellátást is nyújtunk. Orthodontus kollégánk felnőtteknek és gyermekeknek egyaránt végez fogszabályozást a legkorszerűbb eszközökkel.</span><span data-lang="en" hidden>Yes, we provide paediatric dental care. Our orthodontic specialist treats adults and children alike with the most modern appliances.</span><span data-lang="de" hidden>Ja, wir bieten auch Kinderzahnheilkunde an. Unser Kieferorthopäde behandelt Erwachsene und Kinder mit modernsten Apparaturen.</span></p></div>
       </div>
 
-      <div class="faq-item" role="listitem">
+      <div class="faq-item anim anim-d2">
         <button class="faq-q" aria-expanded="false">
-          <span data-lang="hu">Hol találom a rendelőt?</span>
-          <span data-lang="en" hidden>Where is the practice located?</span>
-          <span data-lang="de" hidden>Wo befindet sich die Praxis?</span>
-          <span class="faq-icon" aria-hidden="true">+</span>
+          <span><span data-lang="hu">Hol található a rendelő?</span><span data-lang="en" hidden>Where is the practice?</span><span data-lang="de" hidden>Wo ist die Praxis?</span></span>
+          <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="6 9 12 15 18 9"/></svg>
         </button>
-        <div class="faq-a" role="region">
-          <p>
-            <span data-lang="hu">A rendelő Szekszárd sétáló utcájában, az Obsitos ház (Garay tér 16.) földszintjén található. A bejárat akadálymentesített, így mozgáskorlátozottak számára is könnyedén megközelíthető.</span>
-            <span data-lang="en" hidden>The practice is located in Szekszárd's pedestrian zone, on the ground floor of the Obsitos building at Garay tér 16. The entrance is fully accessible for people with mobility impairments.</span>
-            <span data-lang="de" hidden>Die Praxis befindet sich in der Fußgängerzone von Szekszárd, im Erdgeschoss des Obsitos-Hauses, Garay tér 16. Der Eingang ist barrierefrei und damit auch für Menschen mit eingeschränkter Mobilität leicht zugänglich.</span>
-          </p>
-        </div>
+        <div class="faq-a"><p><span data-lang="hu">Szekszárd sétáló utcájában, az Obsitos udvarház (Garay tér 16.) földszintjén. A bejárat akadálymentesített.</span><span data-lang="en" hidden>In Szekszárd's pedestrian zone, on the ground floor of the Obsitos building at Garay tér 16. The entrance is fully accessible.</span><span data-lang="de" hidden>In der Fußgängerzone von Szekszárd, im Erdgeschoss des Obsitos-Hauses, Garay tér 16. Der Eingang ist barrierefrei.</span></p></div>
       </div>
 
-      <div class="faq-item" role="listitem">
+      <div class="faq-item anim anim-d3">
         <button class="faq-q" aria-expanded="false">
-          <span data-lang="hu">Akadálymentesített a rendelő?</span>
-          <span data-lang="en" hidden>Is the practice accessible for disabled patients?</span>
-          <span data-lang="de" hidden>Ist die Praxis für Menschen mit Behinderungen zugänglich?</span>
-          <span class="faq-icon" aria-hidden="true">+</span>
+          <span><span data-lang="hu">Fájdalmas a fogbeültetés?</span><span data-lang="en" hidden>Is implant surgery painful?</span><span data-lang="de" hidden>Ist die Implantation schmerzhaft?</span></span>
+          <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="6 9 12 15 18 9"/></svg>
         </button>
-        <div class="faq-a" role="region">
-          <p>
-            <span data-lang="hu">Igen, rendelőnk teljes mértékben akadálymentesített. Az Obsitos ház aulájából nyíló bejárat küszöbmentes, így mozgáskorlátozott pácienseink is kényelemmel vehetik igénybe a szolgáltatásainkat.</span>
-            <span data-lang="en" hidden>Yes, our practice is fully accessible. The entrance from the Obsitos building atrium is step-free, so patients with mobility limitations can comfortably access all our services.</span>
-            <span data-lang="de" hidden>Ja, unsere Praxis ist vollständig barrierefrei. Der Eingang durch die Vorhalle des Obsitos-Hauses ist schwellenlos, sodass auch Patienten mit eingeschränkter Mobilität unsere Dienste bequem in Anspruch nehmen können.</span>
-          </p>
-        </div>
+        <div class="faq-a"><p><span data-lang="hu">A fogbeültetést helyi érzéstelenítésben végezzük — a beavatkozás során nem érez fájdalmat. Szorongó pácienseknek éberszedálót is biztosítunk.</span><span data-lang="en" hidden>Implant surgery is performed under local anaesthesia — no pain during the procedure. Sedation is also available for anxious patients.</span><span data-lang="de" hidden>Die Implantation erfolgt unter Lokalanästhesie — kein Schmerz während des Eingriffs. Für ängstliche Patienten ist auch Dämmerschlaf verfügbar.</span></p></div>
       </div>
 
-      <div class="faq-item" role="listitem">
+      <div class="faq-item anim anim-d4">
         <button class="faq-q" aria-expanded="false">
-          <span data-lang="hu">Milyen fogpótlási lehetőségek léteznek?</span>
-          <span data-lang="en" hidden>What prosthetic options are available?</span>
-          <span data-lang="de" hidden>Welche Zahnersatz-Optionen stehen zur Verfügung?</span>
-          <span class="faq-icon" aria-hidden="true">+</span>
+          <span><span data-lang="hu">Milyen fogpótlási lehetőségek vannak?</span><span data-lang="en" hidden>What prosthetic options are available?</span><span data-lang="de" hidden>Welche Zahnersatzoptionen gibt es?</span></span>
+          <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="6 9 12 15 18 9"/></svg>
         </button>
-        <div class="faq-a" role="region">
-          <p>
-            <span data-lang="hu">A fogpótlásban a kivehető fogsorokban alkalmazott megoldásoktól az azonnal terhelhető fogbeültetésekig számos lehetőséget kínálunk: koronák, hidak (műanyag, fémkerámia, cirkónium), préskerámia betétek, titán és cirkón implantátumok.</span>
-            <span data-lang="en" hidden>We offer a wide range from removable dentures to immediately loadable implants: crowns, bridges (acrylic, metal-ceramic, zirconia), pressed-ceramic inlays, and titanium or zirconia implants.</span>
-            <span data-lang="de" hidden>Wir bieten eine breite Palette von herausnehmbaren Prothesen bis hin zu sofortbelastbaren Implantaten: Kronen, Brücken (Kunststoff, Metallkeramik, Zirkon), Presskeramikinlays sowie Titan- und Zirkonimplantate.</span>
-          </p>
-        </div>
+        <div class="faq-a"><p><span data-lang="hu">Kivehető fogsorokat, koronákat, hidakat (műanyag, fémkerámia, cirkónium) és préskerámia betéteket, valamint titán és cirkón implantátumokat egyaránt kínálunk.</span><span data-lang="en" hidden>We offer removable dentures, crowns, bridges (acrylic, metal-ceramic, zirconia), pressed-ceramic inlays, and titanium or zirconia implants.</span><span data-lang="de" hidden>Wir bieten herausnehmbare Prothesen, Kronen, Brücken (Kunststoff, Metallkeramik, Zirkon), Presskeramikinlays sowie Titan- und Zirkonimplantate.</span></p></div>
       </div>
 
-      <div class="faq-item" role="listitem">
+      <div class="faq-item anim anim-d5">
         <button class="faq-q" aria-expanded="false">
-          <span data-lang="hu">Milyen röntgen berendezéssel dolgoznak?</span>
-          <span data-lang="en" hidden>What X-ray equipment do you use?</span>
-          <span data-lang="de" hidden>Welche Röntgengeräte verwenden Sie?</span>
-          <span class="faq-icon" aria-hidden="true">+</span>
+          <span><span data-lang="hu">Milyen röntgen berendezéssel dolgoznak?</span><span data-lang="en" hidden>What X-ray equipment do you use?</span><span data-lang="de" hidden>Welche Röntgengeräte verwenden Sie?</span></span>
+          <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="6 9 12 15 18 9"/></svg>
         </button>
-        <div class="faq-a" role="region">
-          <p>
-            <span data-lang="hu">Digitalizált 2D intraorális röntgent, 2D panorámaröntgent (OPG) és 3D röntgent (CBCT) egyaránt alkalmazunk. A digitális technológia alacsonyabb sugárdózist és azonnal értékelhető képet jelent.</span>
-            <span data-lang="en" hidden>We use digital 2D intraoral X-rays, 2D panoramic X-rays (OPG), and 3D X-rays (CBCT). Digital technology means a lower radiation dose and images available for immediate assessment.</span>
-            <span data-lang="de" hidden>Wir verwenden digitales 2D-Intraoralröntgen, 2D-Panoramaröntgen (OPG) und 3D-Röntgen (CBCT). Die digitale Technologie bedeutet eine geringere Strahlendosis und sofort auswertbare Bilder.</span>
-          </p>
-        </div>
-      </div>
-
-      <div class="faq-item" role="listitem">
-        <button class="faq-q" aria-expanded="false">
-          <span data-lang="hu">Mennyibe kerül egy implantátum?</span>
-          <span data-lang="en" hidden>How much does a dental implant cost?</span>
-          <span data-lang="de" hidden>Was kostet ein Zahnimplantat?</span>
-          <span class="faq-icon" aria-hidden="true">+</span>
-        </button>
-        <div class="faq-a" role="region">
-          <p>
-            <span data-lang="hu">A műgyökér beültetése 255 000 – 350 000 Ft, a felépítmény (korona) elkészítése 85 000 – 125 000 Ft. A pontos árat a szükséges vizsgálatok után, egyéni kezelési terv alapján tudjuk meghatározni.</span>
-            <span data-lang="en" hidden>Implant fixture placement costs 255,000–350,000 HUF, and the abutment/crown restoration 85,000–125,000 HUF. The exact price is determined after examination and an individual treatment plan.</span>
-            <span data-lang="de" hidden>Die Einpflanzung des Implantats kostet 255.000–350.000 HUF, der Aufbau (Krone) 85.000–125.000 HUF. Der genaue Preis wird nach der Untersuchung und auf Basis eines individuellen Behandlungsplans festgelegt.</span>
-          </p>
-        </div>
-      </div>
-
-      <div class="faq-item" role="listitem">
-        <button class="faq-q" aria-expanded="false">
-          <span data-lang="hu">Fájdalmas a fogbeültetés?</span>
-          <span data-lang="en" hidden>Is implant surgery painful?</span>
-          <span data-lang="de" hidden>Ist die Implantation schmerzhaft?</span>
-          <span class="faq-icon" aria-hidden="true">+</span>
-        </button>
-        <div class="faq-a" role="region">
-          <p>
-            <span data-lang="hu">A fogbeültetést helyi érzéstelenítésben végezzük, így a beavatkozás során nem érez fájdalmat. Szorongó pácienseink számára éberszedáló kezelést is biztosítunk, ami még kényelmesebbé teszi az élményt.</span>
-            <span data-lang="en" hidden>Implant surgery is performed under local anaesthesia, so you will not feel pain during the procedure. For anxious patients we also offer conscious sedation, making the experience even more comfortable.</span>
-            <span data-lang="de" hidden>Die Implantation wird unter Lokalanästhesie durchgeführt, sodass Sie während des Eingriffs keine Schmerzen verspüren. Für ängstliche Patienten bieten wir auch Dämmerschlaf an, was das Erlebnis noch angenehmer macht.</span>
-          </p>
-        </div>
+        <div class="faq-a"><p><span data-lang="hu">Digitalizált 2D intraorális, 2D panoráma (OPG) és 3D CBCT röntgent alkalmazunk. A digitális technológia alacsonyabb sugárdózist és azonnali képet jelent.</span><span data-lang="en" hidden>We use digital 2D intraoral, 2D panoramic (OPG) and 3D CBCT X-rays. Digital technology means a lower dose and instantly available images.</span><span data-lang="de" hidden>Wir verwenden digitales 2D intraorale, 2D Panorama (OPG) und 3D CBCT Röntgen. Digitaltechnologie bedeutet geringere Dosis und sofort verfügbare Bilder.</span></p></div>
       </div>
 
     </div>
   </div>
 </section>
 
-<!-- ═══ CONTACT ═══ -->
-<section id="kapcsolat" class="section section-alt">
+<!-- ══ CONTACT ══ -->
+<section id="kapcsolat" class="section">
   <div class="container">
-    <h2 class="section-title">
-      <span class="i18n" data-hu="Kapcsolat" data-en="Contact" data-de="Kontakt">Kapcsolat</span>
-    </h2>
-    <p class="section-sub">
-      <span data-lang="hu">Vegye fel velünk a kapcsolatot – válaszolunk!</span>
-      <span data-lang="en" hidden>Get in touch – we'll get back to you!</span>
-      <span data-lang="de" hidden>Nehmen Sie Kontakt auf – wir antworten!</span>
-    </p>
+    <div class="section-head anim">
+      <div class="section-label"><span class="t" data-hu="Írjon nekünk" data-en="Get in touch" data-de="Kontakt aufnehmen">Írjon nekünk</span></div>
+      <h2 class="section-title"><span class="t" data-hu="Kapcsolat" data-en="Contact" data-de="Kontakt">Kapcsolat</span></h2>
+    </div>
     <div class="contact-grid">
-      <div class="contact-info">
-        <h3>
-          <span class="i18n" data-hu="Elérhetőségeink" data-en="Our contact details" data-de="Unsere Kontaktdaten">Elérhetőségeink</span>
-        </h3>
-        <div class="contact-item">
-          <div class="contact-item-icon">📍</div>
-          <div class="contact-item-text">
-            <strong><span class="i18n" data-hu="Cím" data-en="Address" data-de="Adresse">Cím</span></strong>
-            <span>7100 Szekszárd, Garay tér 16.<br>Obsitos udvarház, földszint</span>
-          </div>
+      <div class="anim">
+        <div class="cinfo-title"><span class="t" data-hu="Elérhetőségeink" data-en="Our contact details" data-de="Unsere Kontaktdaten">Elérhetőségeink</span></div>
+        <div class="cinfo-item">
+          <div class="cinfo-icon"><svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
+          <div><div class="cinfo-label"><span class="t" data-hu="Cím" data-en="Address" data-de="Adresse">Cím</span></div><div class="cinfo-val">7100 Szekszárd, Garay tér 16.<br>Obsitos udvarház, fszt.</div></div>
         </div>
-        <div class="contact-item">
-          <div class="contact-item-icon">📞</div>
-          <div class="contact-item-text">
-            <strong><span class="i18n" data-hu="Telefon" data-en="Phone" data-de="Telefon">Telefon</span></strong>
-            <a href="tel:+3674416400">+36 74 416-400</a>
-          </div>
+        <div class="cinfo-item">
+          <div class="cinfo-icon"><svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013 10.72 19.79 19.79 0 01.21 2a2 2 0 012-2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 7.19a16 16 0 006.29 6.29l1.45-1.45a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14.2z"/></svg></div>
+          <div><div class="cinfo-label"><span class="t" data-hu="Telefon" data-en="Phone" data-de="Telefon">Telefon</span></div><div class="cinfo-val"><a href="tel:+3674416400">+36 74 416-400</a></div></div>
         </div>
-        <div class="contact-item">
-          <div class="contact-item-icon">✉️</div>
-          <div class="contact-item-text">
-            <strong>E-mail</strong>
-            <a href="mailto:drvanyifog@drvanyifog.t-online.hu">drvanyifog@drvanyifog.t-online.hu</a>
-          </div>
+        <div class="cinfo-item">
+          <div class="cinfo-icon"><svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></div>
+          <div><div class="cinfo-label">E-mail</div><div class="cinfo-val"><a href="mailto:drvanyifog@drvanyifog.t-online.hu">drvanyifog@drvanyifog.t-online.hu</a></div></div>
         </div>
-        <div class="contact-item">
-          <div class="contact-item-icon">🕐</div>
-          <div class="contact-item-text">
-            <strong><span class="i18n" data-hu="Rendelési idő" data-en="Opening hours" data-de="Sprechzeiten">Rendelési idő</span></strong>
-            <span>
-              <span data-lang="hu">Hétfő–Péntek: előzetes bejelentkezéssel</span>
-              <span data-lang="en" hidden>Mon–Fri: by appointment</span>
-              <span data-lang="de" hidden>Mo–Fr: nach Vereinbarung</span>
-            </span>
-          </div>
+        <div class="cinfo-item">
+          <div class="cinfo-icon"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div>
+          <div><div class="cinfo-label"><span class="t" data-hu="Rendelési idő" data-en="Opening hours" data-de="Sprechzeiten">Rendelési idő</span></div><div class="cinfo-val"><span data-lang="hu">H–P: előzetes bejelentkezéssel</span><span data-lang="en" hidden>Mon–Fri: by appointment</span><span data-lang="de" hidden>Mo–Fr: nach Vereinbarung</span></div></div>
         </div>
         <div class="map-wrap">
-          <iframe
-            src="https://maps.google.com/maps?q=7100+Szeksz%C3%A1rd,+Garay+t%C3%A9r+16&output=embed&z=16"
-            title="Ványi Fogászat – térkép"
-            loading="lazy"
-            allowfullscreen
-            referrerpolicy="no-referrer-when-downgrade">
-          </iframe>
+          <iframe src="https://maps.google.com/maps?q=7100+Szeksz%C3%A1rd,+Garay+t%C3%A9r+16&output=embed&z=16" title="Térkép" loading="lazy" allowfullscreen referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
       </div>
 
-      <!-- CONTACT FORM — uses Formspree (free tier). Replace YOUR_FORM_ID with your Formspree form ID -->
-      <form id="contactForm" novalidate>
+      <form id="cform" class="anim anim-d2" novalidate>
         <div class="form-row">
           <div class="form-group">
-            <label for="name"><span class="i18n" data-hu="Neve *" data-en="Your name *" data-de="Ihr Name *">Neve *</span></label>
-            <input type="text" id="name" name="name" required autocomplete="name"
-              placeholder="Teljes neve">
+            <label class="form-label" for="cn"><span class="t" data-hu="Neve *" data-en="Name *" data-de="Name *">Neve *</span></label>
+            <input class="form-control" type="text" id="cn" name="name" required autocomplete="name" placeholder="Kovács János">
           </div>
           <div class="form-group">
-            <label for="phone"><span class="i18n" data-hu="Telefonszám" data-en="Phone number" data-de="Telefonnummer">Telefonszám</span></label>
-            <input type="tel" id="phone" name="phone" autocomplete="tel"
-              placeholder="+36 ...">
+            <label class="form-label" for="cp"><span class="t" data-hu="Telefonszám" data-en="Phone" data-de="Telefon">Telefonszám</span></label>
+            <input class="form-control" type="tel" id="cp" name="phone" autocomplete="tel" placeholder="+36 ...">
           </div>
         </div>
         <div class="form-group">
-          <label for="email"><span class="i18n" data-hu="E-mail cím *" data-en="E-mail address *" data-de="E-Mail-Adresse *">E-mail cím *</span></label>
-          <input type="email" id="email" name="email" required autocomplete="email"
-            placeholder="pelda@email.hu">
+          <label class="form-label" for="ce"><span class="t" data-hu="E-mail *" data-en="E-mail *" data-de="E-Mail *">E-mail *</span></label>
+          <input class="form-control" type="email" id="ce" name="email" required autocomplete="email" placeholder="pelda@email.hu">
         </div>
         <div class="form-group">
-          <label for="subject">
-            <span class="i18n" data-hu="Téma" data-en="Subject" data-de="Betreff">Téma</span>
-          </label>
-          <select id="subject" name="subject">
-            <option value="" disabled selected>
-              <span class="i18n" data-hu="Válasszon..." data-en="Select..." data-de="Auswählen...">Válasszon...</span>
-            </option>
-            <option data-hu="Időpontfoglalás" data-en="Book appointment" data-de="Terminbuchung">Időpontfoglalás</option>
-            <option data-hu="Kezelések információ" data-en="Treatment enquiry" data-de="Behandlungsanfrage">Kezelések információ</option>
-            <option data-hu="Árajánlat" data-en="Price enquiry" data-de="Preisanfrage">Árajánlat</option>
-            <option data-hu="Egyéb" data-en="Other" data-de="Sonstiges">Egyéb</option>
+          <label class="form-label" for="cs"><span class="t" data-hu="Tárgy" data-en="Subject" data-de="Betreff">Tárgy</span></label>
+          <select class="form-control" id="cs" name="subject">
+            <option value="" disabled selected id="cs-ph">Válasszon...</option>
+            <option id="cs-1">Időpontfoglalás</option>
+            <option id="cs-2">Kezelések információ</option>
+            <option id="cs-3">Árajánlat</option>
+            <option id="cs-4">Egyéb</option>
           </select>
         </div>
         <div class="form-group">
-          <label for="message"><span class="i18n" data-hu="Üzenete *" data-en="Your message *" data-de="Ihre Nachricht *">Üzenete *</span></label>
-          <textarea id="message" name="message" required
-            placeholder="Írja ide üzenetét..."></textarea>
+          <label class="form-label" for="cm"><span class="t" data-hu="Üzenet *" data-en="Message *" data-de="Nachricht *">Üzenet *</span></label>
+          <textarea class="form-control" id="cm" name="message" required id="cm" placeholder="Írja ide üzenetét..."></textarea>
         </div>
-        <div class="form-group" style="display:flex;align-items:flex-start;gap:.6rem">
-          <input type="checkbox" id="gdpr" name="gdpr" required style="width:18px;height:18px;margin-top:.15rem;flex-shrink:0;accent-color:var(--navy);cursor:pointer">
-          <label for="gdpr" style="font-size:.86rem;color:var(--muted);cursor:pointer">
-            <span data-lang="hu">Elolvastam és elfogadom az <a href="adatvedelem.html" target="_blank" style="color:var(--navy);text-decoration:underline">adatkezelési tájékoztatót</a>, és hozzájárulok személyes adataim kapcsolattartás céljából történő kezeléséhez. *</span>
-            <span data-lang="en" hidden>I have read and accept the <a href="adatvedelem.html" target="_blank" style="color:var(--navy);text-decoration:underline">privacy policy</a>, and I consent to the processing of my personal data for the purpose of contact. *</span>
-            <span data-lang="de" hidden>Ich habe die <a href="adatvedelem.html" target="_blank" style="color:var(--navy);text-decoration:underline">Datenschutzerklärung</a> gelesen und akzeptiere sie, und ich stimme der Verarbeitung meiner personenbezogenen Daten zum Zweck der Kontaktaufnahme zu. *</span>
+        <div class="gdpr-row">
+          <input type="checkbox" id="gdpr" required>
+          <label for="gdpr">
+            <span data-lang="hu">Elolvastam és elfogadom az <a href="adatvedelem.html" target="_blank">adatkezelési tájékoztatót</a>, és hozzájárulok személyes adataim kezeléséhez. *</span>
+            <span data-lang="en" hidden>I have read and accept the <a href="adatvedelem.html" target="_blank">privacy policy</a> and consent to processing of my personal data. *</span>
+            <span data-lang="de" hidden>Ich habe die <a href="adatvedelem.html" target="_blank">Datenschutzerklärung</a> gelesen und stimme der Verarbeitung meiner Daten zu. *</span>
           </label>
         </div>
         <button type="submit" class="form-submit">
-          <span class="i18n" data-hu="Üzenet küldése" data-en="Send message" data-de="Nachricht senden">Üzenet küldése</span>
+          <span class="t" data-hu="Üzenet küldése" data-en="Send message" data-de="Nachricht senden">Üzenet küldése</span>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
         </button>
-        <div class="form-success" id="formSuccess">
-          <span data-lang="hu">✓ Üzenetét megkaptuk! Hamarosan felvesszük Önnel a kapcsolatot.</span>
-          <span data-lang="en" hidden>✓ We received your message! We will be in touch shortly.</span>
-          <span data-lang="de" hidden>✓ Ihre Nachricht ist eingegangen! Wir melden uns in Kürze bei Ihnen.</span>
+        <div class="form-success" id="fsuccess">
+          <span data-lang="hu">✓ Üzenetét megkaptuk! Hamarosan jelentkezünk.</span>
+          <span data-lang="en" hidden>✓ Message received! We'll be in touch shortly.</span>
+          <span data-lang="de" hidden>✓ Nachricht erhalten! Wir melden uns in Kürze.</span>
         </div>
       </form>
     </div>
   </div>
 </section>
 
-<!-- ═══ FOOTER ═══ -->
+<!-- ══ FOOTER ══ -->
 <footer>
   <div class="container">
-    <div class="footer-inner">
+    <div class="footer-grid">
       <div>
-        <div class="footer-brand">Ványi Fogászat<small>7100 Szekszárd, Garay tér 16.</small></div>
-        <p style="font-size:.87rem;line-height:1.7;margin-top:.5rem">
-          <span data-lang="hu">Teljes körű fogászati ellátás Szekszárdon — Dr. Ványi Gyula fog- és szájbetegségek szakorvosa, implantológus fogorvos.</span>
-          <span data-lang="en" hidden>Comprehensive dental care in Szekszárd — Dr. Ványi Gyula, specialist in dental &amp; oral diseases, implant surgeon.</span>
-          <span data-lang="de" hidden>Umfassende Zahnarztleistungen in Szekszárd — Dr. Ványi Gyula, Fachzahnarzt für Zahn- und Mundkrankheiten, Implantologe.</span>
-        </p>
+        <div class="footer-brand">Ványi Fogászat <small>7100 Szekszárd, Garay tér 16.</small></div>
+        <p class="footer-desc"><span data-lang="hu">Teljes körű fogászati ellátás Szekszárdon — Dr. Ványi Gyula fog- és szájbetegségek szakorvosa, implantológus fogorvos.</span><span data-lang="en" hidden>Comprehensive dental care in Szekszárd — Dr. Ványi Gyula, specialist in dental &amp; oral diseases, implant surgeon.</span><span data-lang="de" hidden>Umfassende Zahnarztleistungen in Szekszárd — Dr. Ványi Gyula, Fachzahnarzt, Implantologe.</span></p>
       </div>
       <div class="footer-col">
-        <h4><span class="i18n" data-hu="Gyors linkek" data-en="Quick links" data-de="Schnelllinks">Gyors linkek</span></h4>
+        <h4><span class="t" data-hu="Navigáció" data-en="Navigation" data-de="Navigation">Navigáció</span></h4>
         <ul>
-          <li><a href="#rolunk"><span class="i18n" data-hu="Bemutatkozás" data-en="About" data-de="Über uns">Bemutatkozás</span></a></li>
-          <li><a href="#kezelesek"><span class="i18n" data-hu="Kezelések" data-en="Treatments" data-de="Behandlungen">Kezelések</span></a></li>
-          <li><a href="#csapat"><span class="i18n" data-hu="Csapatunk" data-en="Our Team" data-de="Unser Team">Csapatunk</span></a></li>
-          <li><a href="#arak"><span class="i18n" data-hu="Árak" data-en="Prices" data-de="Preise">Árak</span></a></li>
-          <li><a href="#gyik"><span class="i18n" data-hu="GYIK" data-en="FAQ" data-de="FAQ">GYIK</span></a></li>
-          <li><a href="#kapcsolat"><span class="i18n" data-hu="Kapcsolat" data-en="Contact" data-de="Kontakt">Kapcsolat</span></a></li>
+          <li><a href="#rolunk"><span class="t" data-hu="Bemutatkozás" data-en="About" data-de="Über uns">Bemutatkozás</span></a></li>
+          <li><a href="#kezelesek"><span class="t" data-hu="Kezelések" data-en="Treatments" data-de="Behandlungen">Kezelések</span></a></li>
+          <li><a href="#csapat"><span class="t" data-hu="Csapatunk" data-en="Team" data-de="Team">Csapatunk</span></a></li>
+          <li><a href="#arak"><span class="t" data-hu="Árak" data-en="Prices" data-de="Preise">Árak</span></a></li>
+          <li><a href="#gyik">FAQ / GYIK</a></li>
+          <li><a href="#kapcsolat"><span class="t" data-hu="Kapcsolat" data-en="Contact" data-de="Kontakt">Kapcsolat</span></a></li>
         </ul>
       </div>
       <div class="footer-col">
-        <h4><span class="i18n" data-hu="Elérhetőség" data-en="Contact" data-de="Kontakt">Elérhetőség</span></h4>
+        <h4><span class="t" data-hu="Elérhetőség" data-en="Contact" data-de="Kontakt">Elérhetőség</span></h4>
         <p>📍 Garay tér 16., 7100 Szekszárd</p>
-        <p style="margin-top:.4rem">📞 <a href="tel:+3674416400" style="transition:color .15s">+36 74 416-400</a></p>
-        <p style="margin-top:.4rem">✉️ <a href="mailto:drvanyifog@drvanyifog.t-online.hu" style="font-size:.82rem;transition:color .15s">drvanyifog@drvanyifog.t-online.hu</a></p>
+        <p>📞 <a href="tel:+3674416400">+36 74 416-400</a></p>
+        <p>✉️ <a href="mailto:drvanyifog@drvanyifog.t-online.hu" style="font-size:.8rem">drvanyifog@drvanyifog.t-online.hu</a></p>
       </div>
     </div>
     <div class="footer-bottom">
-      <span>© 2024 Ványi Fogászat · Szekszárd · Minden jog fenntartva</span>
-      <span style="margin:0 .6rem">·</span>
-      <a href="adatvedelem.html" style="color:rgba(255,255,255,.6);font-size:.8rem;transition:color .15s" onmouseover="this.style.color='#c4a247'" onmouseout="this.style.color='rgba(255,255,255,.6)'">
-        <span class="i18n" data-hu="Adatkezelési tájékoztató" data-en="Privacy Policy" data-de="Datenschutzerklärung">Adatkezelési tájékoztató</span>
-      </a>
+      <span>© 2024 Ványi Fogászat · Minden jog fenntartva</span>
+      <a href="adatvedelem.html"><span class="t" data-hu="Adatkezelési tájékoztató" data-en="Privacy Policy" data-de="Datenschutzerklärung">Adatkezelési tájékoztató</span></a>
     </div>
   </div>
 </footer>
 
 <!-- Lightbox -->
-<div id="lightbox" role="dialog" aria-modal="true" aria-label="Képnagyítás" onclick="closeLightbox()">
-  <button id="lightbox-close" aria-label="Bezárás" onclick="closeLightbox()">×</button>
-  <img id="lightbox-img" src="" alt="Nagyított kép">
+<div id="lb" onclick="closeLb()" role="dialog" aria-modal="true">
+  <button id="lb-close" onclick="closeLb()" aria-label="Bezárás">×</button>
+  <img id="lb-img" src="" alt="">
 </div>
 
-<!-- Scroll to top -->
-<button id="scrolltop" aria-label="Vissza a tetejére" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>
+<!-- Scroll top -->
+<button id="st" onclick="scrollTo({top:0,behavior:'smooth'})" aria-label="Fel">↑</button>
 
 <script>
-  /* ── Language switcher ── */
-  var currentLang = localStorage.getItem('lang') || 'hu';
+/* ── i18n ── */
+var lang = localStorage.getItem('lang') || 'hu';
 
-  function setLang(l) {
-    currentLang = l;
-    document.documentElement.lang = l;
-    document.body.dataset.lang = l;
+var selectOpts = {
+  ph:  {hu:'Válasszon...',  en:'Select...',   de:'Auswählen...'},
+  o1:  {hu:'Időpontfoglalás',     en:'Book appointment',   de:'Terminbuchung'},
+  o2:  {hu:'Kezelések információ',en:'Treatment enquiry',  de:'Behandlungsanfrage'},
+  o3:  {hu:'Árajánlat',           en:'Price enquiry',      de:'Preisanfrage'},
+  o4:  {hu:'Egyéb',               en:'Other',              de:'Sonstiges'}
+};
 
-    // Swap short inline strings
-    document.querySelectorAll('.i18n').forEach(function(el) {
-      if (el.dataset[l]) el.textContent = el.dataset[l];
+function setLang(l) {
+  lang = l;
+  document.documentElement.lang = l;
+  document.body.dataset.lang = l;
+
+  document.querySelectorAll('.t[data-'+l+']').forEach(function(el){
+    el.textContent = el.dataset[l];
+  });
+  document.querySelectorAll('[data-lang]').forEach(function(el){
+    el.hidden = el.dataset.lang !== l;
+  });
+  document.querySelectorAll('.lang-btn').forEach(function(b){
+    b.classList.toggle('active', b.textContent.trim().toLowerCase() === l);
+  });
+
+  // select options
+  var ids = ['ph','o1','o2','o3','o4'];
+  ids.forEach(function(id){ var el=document.getElementById('cs-'+id.replace('ph','ph')); if(!el && id==='ph') el=document.getElementById('cs-ph'); if(el && selectOpts[id]) el.textContent=selectOpts[id][l]; });
+  // textarea placeholder
+  var cm = document.getElementById('cm');
+  if(cm) cm.placeholder = {hu:'Írja ide üzenetét...',en:'Write your message here...',de:'Schreiben Sie hier Ihre Nachricht...'}[l];
+
+  localStorage.setItem('lang', l);
+}
+setLang(lang);
+
+/* ── Hamburger ── */
+var hbg = document.getElementById('hbg');
+var nl  = document.getElementById('navLinks');
+hbg.addEventListener('click', function(){
+  var o = nl.classList.toggle('open');
+  hbg.classList.toggle('open', o);
+  hbg.setAttribute('aria-expanded', o);
+});
+nl.querySelectorAll('a').forEach(function(a){
+  a.addEventListener('click', function(){
+    nl.classList.remove('open');
+    hbg.classList.remove('open');
+    hbg.setAttribute('aria-expanded', false);
+  });
+});
+
+/* ── Price accordion ── */
+document.querySelectorAll('.pacc-head').forEach(function(btn){
+  btn.addEventListener('click', function(){
+    var open = btn.getAttribute('aria-expanded') === 'true';
+    document.querySelectorAll('.pacc-head').forEach(function(b){
+      b.setAttribute('aria-expanded','false');
+      b.nextElementSibling.style.maxHeight = null;
     });
-
-    // Show/hide language blocks
-    document.querySelectorAll('[data-lang]').forEach(function(el) {
-      el.hidden = el.dataset.lang !== l;
-    });
-
-    // Active button
-    document.querySelectorAll('.lang-btn').forEach(function(btn) {
-      btn.classList.toggle('active', btn.textContent.trim().toLowerCase() === l);
-    });
-
-    // Hidden form field
-    var hl = document.getElementById('hiddenLang');
-    if (hl) hl.value = l;
-
-    // Select option texts
-    document.querySelectorAll('select option[data-' + l + ']').forEach(function(opt) {
-      opt.textContent = opt.dataset[l];
-    });
-
-    // Select placeholder
-    var subj = document.getElementById('subject');
-    if (subj && subj.options[0]) {
-      var ph = {hu:'Válasszon...', en:'Select...', de:'Auswählen...'};
-      subj.options[0].textContent = ph[l];
+    if(!open){
+      btn.setAttribute('aria-expanded','true');
+      var body = btn.nextElementSibling;
+      body.style.maxHeight = body.scrollHeight + 'px';
     }
+  });
+});
 
-    // Textarea placeholder
-    var msg = document.getElementById('message');
-    if (msg) {
-      var tp = {hu:'Írja ide üzenetét...', en:'Write your message here...', de:'Schreiben Sie hier Ihre Nachricht...'};
-      msg.placeholder = tp[l];
+/* ── FAQ accordion ── */
+document.querySelectorAll('.faq-q').forEach(function(btn){
+  btn.addEventListener('click', function(){
+    var open = btn.getAttribute('aria-expanded') === 'true';
+    document.querySelectorAll('.faq-q').forEach(function(b){
+      b.setAttribute('aria-expanded','false');
+      b.nextElementSibling.style.maxHeight = null;
+    });
+    if(!open){
+      btn.setAttribute('aria-expanded','true');
+      var a = btn.nextElementSibling;
+      a.style.maxHeight = a.scrollHeight + 'px';
     }
-
-    localStorage.setItem('lang', l);
-  }
-
-  // Init
-  setLang(currentLang);
-
-  /* ── Hamburger ── */
-  var hamburger = document.getElementById('hamburger');
-  var navLinks  = document.getElementById('navLinks');
-  hamburger.addEventListener('click', function() {
-    var open = navLinks.classList.toggle('open');
-    hamburger.classList.toggle('open', open);
-    hamburger.setAttribute('aria-expanded', open);
   });
-  // Close menu on nav link click
-  navLinks.querySelectorAll('a').forEach(function(a) {
-    a.addEventListener('click', function() {
-      navLinks.classList.remove('open');
-      hamburger.classList.remove('open');
-      hamburger.setAttribute('aria-expanded', false);
-    });
-  });
+});
 
-  /* ── FAQ accordion ── */
-  document.querySelectorAll('.faq-q').forEach(function(btn) {
-    btn.addEventListener('click', function() {
-      var expanded = btn.getAttribute('aria-expanded') === 'true';
-      // Close all
-      document.querySelectorAll('.faq-q').forEach(function(b) {
-        b.setAttribute('aria-expanded', 'false');
-        b.nextElementSibling.style.maxHeight = null;
-      });
-      // Open clicked (toggle)
-      if (!expanded) {
-        btn.setAttribute('aria-expanded', 'true');
-        var panel = btn.nextElementSibling;
-        panel.style.maxHeight = panel.scrollHeight + 'px';
-      }
-    });
-  });
+/* ── Scroll animations ── */
+var io = new IntersectionObserver(function(entries){
+  entries.forEach(function(e){ if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target); }});
+}, {threshold:0.1});
+document.querySelectorAll('.anim').forEach(function(el){ io.observe(el); });
 
-  /* ── Lightbox ── */
-  function openLightbox(src) {
-    document.getElementById('lightbox-img').src = src;
-    var lb = document.getElementById('lightbox');
-    lb.classList.add('open');
-    document.body.style.overflow = 'hidden';
-  }
-  function closeLightbox() {
-    document.getElementById('lightbox').classList.remove('open');
-    document.body.style.overflow = '';
-  }
-  document.addEventListener('keydown', function(e) {
-    if (e.key === 'Escape') closeLightbox();
-  });
+/* ── Lightbox ── */
+function openLb(src){ document.getElementById('lb-img').src=src; document.getElementById('lb').classList.add('open'); document.body.style.overflow='hidden'; }
+function closeLb(){ document.getElementById('lb').classList.remove('open'); document.body.style.overflow=''; }
+document.addEventListener('keydown', function(e){ if(e.key==='Escape') closeLb(); });
 
-  /* ── Scroll-to-top ── */
-  var scrollBtn = document.getElementById('scrolltop');
-  window.addEventListener('scroll', function() {
-    scrollBtn.classList.toggle('visible', window.scrollY > 400);
-  }, {passive:true});
+/* ── Scroll top ── */
+var st = document.getElementById('st');
+window.addEventListener('scroll', function(){ st.classList.toggle('on', scrollY>400); }, {passive:true});
 
-  /* ── Contact form (demo – no backend) ── */
-  document.getElementById('contactForm').addEventListener('submit', function(e) {
-    e.preventDefault();
-    this.reset();
-    var s = document.getElementById('formSuccess');
-    s.style.display = 'block';
-    setTimeout(function(){s.style.display='none';}, 6000);
-  });
+/* ── Form demo ── */
+document.getElementById('cform').addEventListener('submit', function(e){
+  e.preventDefault();
+  this.reset();
+  var s = document.getElementById('fsuccess');
+  s.style.display = 'block';
+  setTimeout(function(){ s.style.display='none'; }, 5000);
+});
 </script>
 </body>
 </html>
