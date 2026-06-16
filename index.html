@@ -126,7 +126,8 @@
     .hero-img-badge-text small{display:block;opacity:.7;font-weight:400;font-size:.75rem}
     @media(max-width:840px){
       .hero-grid{grid-template-columns:1fr}
-      .hero-img-wrap{display:none}
+      .hero-img-wrap{margin-top:2rem}
+      .hero-img-card img{height:260px}
     }
 
     /* ── STATS BAR ── */
@@ -236,17 +237,20 @@
     .faq-a p{padding-bottom:1.1rem;color:var(--muted);font-size:.93rem;line-height:1.72}
 
     /* ── CONTACT ── */
-    .contact-grid{display:grid;grid-template-columns:1fr 1.35fr;gap:3.5rem;align-items:start}
-    .cinfo-title{font-size:1.25rem;font-weight:800;color:var(--g800);margin-bottom:1.5rem}
-    .cinfo-item{display:flex;gap:.9rem;margin-bottom:1.35rem}
-    .cinfo-icon{width:42px;height:42px;background:var(--g50);border:1.5px solid var(--g100);border-radius:var(--r-sm);display:flex;align-items:center;justify-content:center;flex-shrink:0}
+    .contact-grid{display:flex;flex-direction:column;gap:2.5rem}
+    .contact-form-wrap{max-width:680px;margin:0 auto;width:100%}
+    .cinfo-section{border-top:1.5px solid var(--border);padding-top:2.5rem}
+    .cinfo-title{font-size:1.1rem;font-weight:800;color:var(--g800);margin-bottom:1.5rem;text-align:center}
+    .cinfo-items{display:grid;grid-template-columns:repeat(4,1fr);gap:1rem;margin-bottom:1.75rem}
+    .cinfo-item{display:flex;flex-direction:column;align-items:center;text-align:center;gap:.55rem;padding:1.1rem .75rem;background:var(--g50);border:1.5px solid var(--border);border-radius:var(--r-sm)}
+    .cinfo-icon{width:42px;height:42px;background:var(--white);border:1.5px solid var(--g100);border-radius:var(--r-sm);display:flex;align-items:center;justify-content:center;flex-shrink:0}
     .cinfo-icon svg{width:18px;height:18px;stroke:var(--g600);fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
-    .cinfo-label{font-size:.74rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;margin-bottom:.2rem}
-    .cinfo-val{font-size:.96rem;color:var(--text)}
+    .cinfo-label{font-size:.72rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.06em}
+    .cinfo-val{font-size:.88rem;color:var(--text);line-height:1.4}
     .cinfo-val a{color:var(--g600);transition:color .15s}
     .cinfo-val a:hover{color:var(--g800)}
-    .map-wrap{margin-top:1.5rem;border-radius:var(--r-sm);overflow:hidden;border:1.5px solid var(--border)}
-    .map-wrap iframe{width:100%;height:210px;border:none;display:block}
+    .map-wrap{border-radius:var(--r-sm);overflow:hidden;border:1.5px solid var(--border)}
+    .map-wrap iframe{width:100%;height:240px;border:none;display:block}
     .form-group{margin-bottom:1rem}
     .form-label{display:block;font-size:.82rem;font-weight:600;color:var(--g800);margin-bottom:.35rem}
     .form-control{width:100%;padding:.72rem 1rem;border:1.5px solid var(--border);border-radius:var(--r-sm);font-size:.95rem;font-family:inherit;color:var(--text);background:var(--white);transition:border-color .15s,box-shadow .15s;outline:none}
@@ -261,7 +265,7 @@
     .form-submit{width:100%;padding:.88rem;background:var(--g600);color:var(--white);border:none;border-radius:var(--r-pill);font-size:1rem;font-weight:700;cursor:pointer;transition:all .2s;display:flex;align-items:center;justify-content:center;gap:.5rem}
     .form-submit:hover{background:var(--g700);transform:translateY(-1px);box-shadow:0 6px 20px rgba(42,100,68,.28)}
     .form-success{display:none;background:#d1fae5;border:1px solid #6ee7b7;border-radius:var(--r-sm);padding:.9rem 1.1rem;color:#065f46;font-size:.9rem;text-align:center;margin-top:.75rem}
-    @media(max-width:780px){.contact-grid{grid-template-columns:1fr}.form-row{grid-template-columns:1fr}}
+    @media(max-width:780px){.cinfo-items{grid-template-columns:repeat(2,1fr)}.form-row{grid-template-columns:1fr}}
 
     /* ── FOOTER ── */
     footer{background:var(--g900);color:rgba(255,255,255,.6);padding:3rem 0 1.5rem}
@@ -345,12 +349,10 @@
       /* faq */
       .faq-q{padding:1rem 0;font-size:.93rem;min-height:54px}
 
-      /* contact: form felül, térkép+adatok alul mobilon */
-      .contact-grid{gap:2rem;display:flex;flex-direction:column}
-      .contact-grid>form{order:1}
-      .contact-grid>div{order:2}
-      .form-row{grid-template-columns:1fr}
-      .map-wrap iframe{height:200px}
+      /* contact */
+      .contact-grid{gap:1.75rem}
+      .cinfo-items{grid-template-columns:repeat(2,1fr)}
+      .map-wrap iframe{height:190px}
       /* prevent iOS auto-zoom on input focus */
       .form-control{font-size:1rem}
       input.form-control,select.form-control{font-size:1rem}
@@ -451,8 +453,9 @@
       </div>
       <div class="hero-img-wrap anim anim-d2">
         <div class="hero-img-card">
-          <img src="https://images.pexels.com/photos/3845810/pexels-photo-3845810.jpeg?auto=compress&cs=tinysrgb&w=800&h=500&fit=crop"
-               alt="Modern fogászati rendelő">
+          <img src="https://images.pexels.com/photos/6812444/pexels-photo-6812444.jpeg?auto=compress&cs=tinysrgb&w=900&h=600&fit=crop"
+               alt="Modern fogászati rendelő"
+               onerror="this.src='https://images.pexels.com/photos/3845653/pexels-photo-3845653.jpeg?auto=compress&cs=tinysrgb&w=900&h=600&fit=crop';this.removeAttribute('onerror')">
           <div class="hero-img-badge">
             <div class="hero-img-badge-icon">🦷</div>
             <div class="hero-img-badge-text">
@@ -892,30 +895,8 @@
       <h2 class="section-title"><span class="t" data-hu="Kapcsolat" data-en="Contact" data-de="Kontakt">Kapcsolat</span></h2>
     </div>
     <div class="contact-grid">
-      <div class="anim">
-        <div class="cinfo-title"><span class="t" data-hu="Elérhetőségeink" data-en="Our contact details" data-de="Unsere Kontaktdaten">Elérhetőségeink</span></div>
-        <div class="cinfo-item">
-          <div class="cinfo-icon"><svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
-          <div><div class="cinfo-label"><span class="t" data-hu="Cím" data-en="Address" data-de="Adresse">Cím</span></div><div class="cinfo-val">7100 Szekszárd, Garay tér 16.<br>Obsitos udvarház, fszt.</div></div>
-        </div>
-        <div class="cinfo-item">
-          <div class="cinfo-icon"><svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013 10.72 19.79 19.79 0 01.21 2a2 2 0 012-2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 7.19a16 16 0 006.29 6.29l1.45-1.45a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14.2z"/></svg></div>
-          <div><div class="cinfo-label"><span class="t" data-hu="Telefon" data-en="Phone" data-de="Telefon">Telefon</span></div><div class="cinfo-val"><a href="tel:+3674416400">+36 74 416-400</a></div></div>
-        </div>
-        <div class="cinfo-item">
-          <div class="cinfo-icon"><svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></div>
-          <div><div class="cinfo-label">E-mail</div><div class="cinfo-val"><a href="mailto:drvanyifog@drvanyifog.t-online.hu">drvanyifog@drvanyifog.t-online.hu</a></div></div>
-        </div>
-        <div class="cinfo-item">
-          <div class="cinfo-icon"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div>
-          <div><div class="cinfo-label"><span class="t" data-hu="Rendelési idő" data-en="Opening hours" data-de="Sprechzeiten">Rendelési idő</span></div><div class="cinfo-val"><span data-lang="hu">H–P: előzetes bejelentkezéssel</span><span data-lang="en" hidden>Mon–Fri: by appointment</span><span data-lang="de" hidden>Mo–Fr: nach Vereinbarung</span></div></div>
-        </div>
-        <div class="map-wrap">
-          <iframe src="https://maps.google.com/maps?q=7100+Szeksz%C3%A1rd,+Garay+t%C3%A9r+16&output=embed&z=16" title="Térkép" loading="lazy" allowfullscreen referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-      </div>
-
-      <form id="cform" class="anim anim-d2" novalidate>
+      <div class="contact-form-wrap anim">
+      <form id="cform" novalidate>
         <div class="form-row">
           <div class="form-group">
             <label class="form-label" for="cn"><span class="t" data-hu="Neve *" data-en="Name *" data-de="Name *">Neve *</span></label>
@@ -962,6 +943,36 @@
           <span data-lang="de" hidden>✓ Nachricht erhalten! Wir melden uns in Kürze.</span>
         </div>
       </form>
+      </div>
+
+      <div class="cinfo-section anim">
+        <div class="cinfo-title"><span class="t" data-hu="Elérhetőségeink" data-en="Our contact details" data-de="Unsere Kontaktdaten">Elérhetőségeink</span></div>
+        <div class="cinfo-items">
+          <div class="cinfo-item">
+            <div class="cinfo-icon"><svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
+            <div class="cinfo-label"><span class="t" data-hu="Cím" data-en="Address" data-de="Adresse">Cím</span></div>
+            <div class="cinfo-val">7100 Szekszárd<br>Garay tér 16. fszt.</div>
+          </div>
+          <div class="cinfo-item">
+            <div class="cinfo-icon"><svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013 10.72 19.79 19.79 0 01.21 2a2 2 0 012-2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 7.19a16 16 0 006.29 6.29l1.45-1.45a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14.2z"/></svg></div>
+            <div class="cinfo-label"><span class="t" data-hu="Telefon" data-en="Phone" data-de="Telefon">Telefon</span></div>
+            <div class="cinfo-val"><a href="tel:+3674416400">+36 74 416-400</a></div>
+          </div>
+          <div class="cinfo-item">
+            <div class="cinfo-icon"><svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></div>
+            <div class="cinfo-label">E-mail</div>
+            <div class="cinfo-val"><a href="mailto:drvanyifog@drvanyifog.t-online.hu" style="font-size:.82rem;word-break:break-all">drvanyifog@drvanyifog.t-online.hu</a></div>
+          </div>
+          <div class="cinfo-item">
+            <div class="cinfo-icon"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div>
+            <div class="cinfo-label"><span class="t" data-hu="Rendelési idő" data-en="Opening hours" data-de="Sprechzeiten">Rendelési idő</span></div>
+            <div class="cinfo-val"><span data-lang="hu">H–P: bejelentkezéssel</span><span data-lang="en" hidden>Mon–Fri: by appt.</span><span data-lang="de" hidden>Mo–Fr: nach Vereinb.</span></div>
+          </div>
+        </div>
+        <div class="map-wrap">
+          <iframe src="https://maps.google.com/maps?q=7100+Szeksz%C3%A1rd,+Garay+t%C3%A9r+16&output=embed&z=16" title="Térkép" loading="lazy" allowfullscreen referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
     </div>
   </div>
 </section>
